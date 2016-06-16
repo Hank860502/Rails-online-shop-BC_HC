@@ -1,0 +1,41 @@
+!!!
+%html
+  %head
+    %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    %title Trick || Treat
+    %script{:crossorigin => "anonymous", :integrity => "sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=", :src => "https://code.jquery.com/jquery-2.2.4.min.js"}
+    %link{:href => "/favicon.png", :rel => "shortcut icon", :type => "image/png"}/
+    %link{:href => "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css", :rel => "stylesheet"}/
+    %script{:src => "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"}/
+    = stylesheet_link_tag    'application', media: 'all'
+    = javascript_include_tag 'application'
+    = csrf_meta_tags
+  %body
+    %div.container
+      %nav.navbar.navbar-default
+        .container-fluid
+          .navbar-header
+            %a.navbar-brand{:href => products_path} Trick || Treat
+          %ul.nav.navbar-nav
+            -if logged_in && current_user.admin
+              %li
+                %a{:href => admin_products_path } Admin Panel
+            -if logged_in
+              %li
+                %a{:href => logout_path } Logout
+            -else
+              %li
+                %a{:href => new_user_path } Register
+              %li
+                %a{:href => login_path } Login
+            %li.dropdown
+              %a.dropdown-toggle{"aria-expanded" => "false", "aria-haspopup" => "true", "data-toggle" => "dropdown", :href => "#", :role => "button"}
+                Product Categories
+                %span.caret
+              %ul.dropdown-menu
+                - @category_names.each do |category|
+                  %li.text-center
+                    =link_to category.name, category_path(category)
+                  %li.divider
+
+      = yield

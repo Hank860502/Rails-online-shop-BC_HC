@@ -1,0 +1,17 @@
+- flash.each do |message_type, message|
+  %div{:class => "alert alert-#{message_type}"}= message
+
+%div.row
+  %div.col-md-4
+    %img.img-responsive.img-rounded{:src => @product.image_url, :alt => "", }/
+  %div.col-md-8
+    %div.row
+      %h2= @product.name
+      %h4
+        = number_to_currency(@product.price)
+      %p
+        = @product.description
+
+
+%br
+= link_to 'Show all products', products_path

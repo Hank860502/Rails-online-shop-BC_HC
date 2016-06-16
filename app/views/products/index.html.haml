@@ -1,0 +1,13 @@
+%div.row
+  - @products.each do |product|
+    %a{:href => product_path(product)}
+      %div.col-md-4
+        %div.panel.panel-primary
+          %div.panel-heading
+            %img.img-responsive{:alt => "", :src => "#{product.image_url}", :style => "height:300px"}
+          %div.panel-footer
+            = product.name
+            -product.categories.each do |cat|
+              %span.label.label-info=cat.name
+            %br
+            = number_to_currency(product.price)

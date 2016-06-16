@@ -1,0 +1,44 @@
+%h2 Create a product
+
+- if @product.errors.any?
+  - flash.each do |message_type, message|
+    %div{:class => "alert alert-#{message_type}"}= message
+
+= form_tag('/admin/products', method: 'post') do
+
+  %fieldset.form-group
+    = label_tag :name
+    %br
+    = text_field_tag 'product[name]', @product.name, class: 'form-control'
+
+  %fieldset.form-group
+    = label_tag :"category_id"
+    %br
+    - @categories.each do |category|
+      = check_box_tag 'category_ids[]' , category.id, checked = false,{ class: 'form-control', value: category.id }
+      = category.name
+
+  %fieldset.form-group
+    = label_tag :stock
+    %br
+    = number_field_tag 'product[stock]', @product.stock, class: 'form-control'
+
+  %fieldset.form-group
+    = label_tag :price
+    %br
+    = number_field_tag 'product[price]', @product.price, {class: 'form-control', step: 'any'}
+
+  %fieldset.form-group
+    = label_tag :description
+    %br
+    = text_area_tag 'product[description]', @product.description, class: 'form-control'
+
+  %fieldset.form-group
+    = label_tag :image_url
+    %br
+    = text_field_tag 'product[image_url]', @product.image_url, class: 'form-control'
+
+  %fieldset.form-group
+    = submit_tag('Create Product',{class: 'btn btn-primary'})
+
+= link_to 'Back to all products', admin_products_path

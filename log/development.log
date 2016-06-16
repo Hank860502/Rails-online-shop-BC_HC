@@ -1,0 +1,2333 @@
+
+
+Started GET "/" for ::1 at 2016-06-16 11:38:24 -0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/BrianJChung/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-4.2.6/lib/rails/templates/rails/welcome/index.html.erb (2.2ms)
+Completed 200 OK in 9ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-06-16 11:40:12 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+ActiveRecord::PendingMigrationError - 
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rake db:migrate RAILS_ENV=development
+
+:
+  activerecord (4.2.6) lib/active_record/migration.rb:392:in `check_pending!'
+  activerecord (4.2.6) lib/active_record/migration.rb:373:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.6) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  thin (1.7.0) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.7.0) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.7.0) lib/thin/connection.rb:53:in `process'
+  thin (1.7.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run'
+  thin (1.7.0) lib/thin/backends/base.rb:73:in `start'
+  thin (1.7.0) lib/thin/server.rb:162:in `start'
+  rack (1.6.4) lib/rack/handler/thin.rb:19:in `run'
+  rack (1.6.4) lib/rack/server.rb:286:in `start'
+  railties (4.2.6) lib/rails/commands/server.rb:80:in `start'
+  railties (4.2.6) lib/rails/commands/commands_tasks.rb:80:in `block in server'
+  railties (4.2.6) lib/rails/commands/commands_tasks.rb:75:in `server'
+  railties (4.2.6) lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+  railties (4.2.6) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:4:in `<main>'
+
+
+
+Started POST "/__better_errors/bd77a2a2775056dd/variables" for ::1 at 2016-06-16 11:40:12 -0700
+
+
+Started GET "/favicon.ico" for ::1 at 2016-06-16 11:40:12 -0700
+  [1m[35mActiveRecord::SchemaMigration Load (0.3ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+ActiveRecord::PendingMigrationError - 
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rake db:migrate RAILS_ENV=development
+
+:
+  activerecord (4.2.6) lib/active_record/migration.rb:392:in `check_pending!'
+  activerecord (4.2.6) lib/active_record/migration.rb:373:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.6) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  thin (1.7.0) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.7.0) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.7.0) lib/thin/connection.rb:53:in `process'
+  thin (1.7.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run'
+  thin (1.7.0) lib/thin/backends/base.rb:73:in `start'
+  thin (1.7.0) lib/thin/server.rb:162:in `start'
+  rack (1.6.4) lib/rack/handler/thin.rb:19:in `run'
+  rack (1.6.4) lib/rack/server.rb:286:in `start'
+  railties (4.2.6) lib/rails/commands/server.rb:80:in `start'
+  railties (4.2.6) lib/rails/commands/commands_tasks.rb:80:in `block in server'
+  railties (4.2.6) lib/rails/commands/commands_tasks.rb:75:in `server'
+  railties (4.2.6) lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+  railties (4.2.6) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:4:in `<main>'
+
+
+
+Started GET "/" for ::1 at 2016-06-16 11:40:13 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+ActiveRecord::PendingMigrationError - 
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rake db:migrate RAILS_ENV=development
+
+:
+  activerecord (4.2.6) lib/active_record/migration.rb:392:in `check_pending!'
+  activerecord (4.2.6) lib/active_record/migration.rb:373:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.6) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  thin (1.7.0) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.7.0) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.7.0) lib/thin/connection.rb:53:in `process'
+  thin (1.7.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run'
+  thin (1.7.0) lib/thin/backends/base.rb:73:in `start'
+  thin (1.7.0) lib/thin/server.rb:162:in `start'
+  rack (1.6.4) lib/rack/handler/thin.rb:19:in `run'
+  rack (1.6.4) lib/rack/server.rb:286:in `start'
+  railties (4.2.6) lib/rails/commands/server.rb:80:in `start'
+  railties (4.2.6) lib/rails/commands/commands_tasks.rb:80:in `block in server'
+  railties (4.2.6) lib/rails/commands/commands_tasks.rb:75:in `server'
+  railties (4.2.6) lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+  railties (4.2.6) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:4:in `<main>'
+
+
+
+Started POST "/__better_errors/9970bc10c969b3ce/variables" for ::1 at 2016-06-16 11:40:13 -0700
+
+
+Started GET "/favicon.ico" for ::1 at 2016-06-16 11:40:13 -0700
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+ActiveRecord::PendingMigrationError - 
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rake db:migrate RAILS_ENV=development
+
+:
+  activerecord (4.2.6) lib/active_record/migration.rb:392:in `check_pending!'
+  activerecord (4.2.6) lib/active_record/migration.rb:373:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.6) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  thin (1.7.0) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.7.0) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.7.0) lib/thin/connection.rb:53:in `process'
+  thin (1.7.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run'
+  thin (1.7.0) lib/thin/backends/base.rb:73:in `start'
+  thin (1.7.0) lib/thin/server.rb:162:in `start'
+  rack (1.6.4) lib/rack/handler/thin.rb:19:in `run'
+  rack (1.6.4) lib/rack/server.rb:286:in `start'
+  railties (4.2.6) lib/rails/commands/server.rb:80:in `start'
+  railties (4.2.6) lib/rails/commands/commands_tasks.rb:80:in `block in server'
+  railties (4.2.6) lib/rails/commands/commands_tasks.rb:75:in `server'
+  railties (4.2.6) lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+  railties (4.2.6) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:4:in `<main>'
+
+  [1m[36m (3.3ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL) [0m
+  [1m[35m (1.4ms)[0m  CREATE UNIQUE INDEX  "unique_schema_migrations" ON "schema_migrations"  ("version")
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateProducts (20160613232706)
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (4.6ms)[0m  [1mCREATE TABLE "products" ("id" serial primary key, "name" character varying, "price" integer, "description" text, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20160613232706"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+Migrating to AddImageUrlToProducts (20160614010615)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.4ms)[0m  [1mALTER TABLE "products" ADD "image_url" character varying[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20160614010615"]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+Migrating to UpdatePriceColumn (20160614024529)
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (4.3ms)[0m  [1mALTER TABLE "products" ALTER COLUMN "price" TYPE decimal(10,2)[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20160614024529"]]
+  [1m[36m (0.7ms)[0m  [1mCOMMIT[0m
+Migrating to AddStockAndCurrencyToProducts (20160614214657)
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mALTER TABLE "products" ADD "stock" integer[0m
+  [1m[35m (0.2ms)[0m  ALTER TABLE "products" ADD "currency" character varying
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ($1)[0m  [["version", "20160614214657"]]
+  [1m[35m (0.2ms)[0m  COMMIT
+Migrating to CreateUsers (20160615222209)
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (3.4ms)[0m  CREATE TABLE "users" ("id" serial primary key, "name" character varying, "email" character varying, "password_digest" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) 
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ($1)[0m  [["version", "20160615222209"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+Migrating to AddAdminColumn (20160616010308)
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (3.5ms)[0m  ALTER TABLE "users" ADD "admin" boolean DEFAULT 'f'
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ($1)[0m  [["version", "20160616010308"]]
+  [1m[35m (0.6ms)[0m  COMMIT
+Migrating to AddCategoryIdToProducts (20160616011151)
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  ALTER TABLE "products" ADD "category_id" integer
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ($1)[0m  [["version", "20160616011151"]]
+  [1m[35m (0.2ms)[0m  COMMIT
+Migrating to CreateCategories (20160616011334)
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (3.2ms)[0m  CREATE TABLE "categories" ("id" serial primary key, "name" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) 
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ($1)[0m  [["version", "20160616011334"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+Migrating to RemoveCategoryIdColumn (20160616161325)
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.4ms)[0m  ALTER TABLE "products" DROP "category_id"
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ($1)[0m  [["version", "20160616161325"]]
+  [1m[35m (0.2ms)[0m  COMMIT
+Migrating to CreateProductsCategories (20160616162343)
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (2.0ms)[0m  CREATE TABLE "products_categories" ("id" serial primary key, "product_id" integer NOT NULL, "category_id" integer NOT NULL, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) 
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ($1)[0m  [["version", "20160616162343"]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (4.3ms)[0m  SELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'categories'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+
+  [1m[36m (3.3ms)[0m  [1mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'products'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+  [1m[35m (3.1ms)[0m  SELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'products_categories'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+
+  [1m[36m (2.9ms)[0m  [1mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'users'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mSQL (0.6ms)[0m  DELETE FROM "categories"
+  [1m[36mSQL (0.4ms)[0m  [1mDELETE FROM "products"[0m
+  [1m[35mSQL (0.4ms)[0m  DELETE FROM "users"
+  [1m[36mSQL (0.5ms)[0m  [1mDELETE FROM "products_categories"[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "categories" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Drinks"], ["created_at", "2016-06-16 18:41:11.755123"], ["updated_at", "2016-06-16 18:41:11.755123"]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "categories" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "Candy"], ["created_at", "2016-06-16 18:41:11.759238"], ["updated_at", "2016-06-16 18:41:11.759238"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "categories" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Cookies"], ["created_at", "2016-06-16 18:41:11.760793"], ["updated_at", "2016-06-16 18:41:11.760793"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "categories" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "Latin America"], ["created_at", "2016-06-16 18:41:11.762240"], ["updated_at", "2016-06-16 18:41:11.762240"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "categories" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Scandinavia"], ["created_at", "2016-06-16 18:41:11.763657"], ["updated_at", "2016-06-16 18:41:11.763657"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "categories" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "Central Europe"], ["created_at", "2016-06-16 18:41:11.765092"], ["updated_at", "2016-06-16 18:41:11.765092"]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "products" ("name", "price", "description", "stock", "image_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Alfajores"], ["price", "10.49"], ["description", "A traditional confection found in some regions of Spain, the Philippines, and in parts of Latin America."], ["stock", 20], ["image_url", "http://perudelights.com/wp-content/uploads/2012/09/Alfajores-10.jpg"], ["created_at", "2016-06-16 18:41:11.772022"], ["updated_at", "2016-06-16 18:41:11.772022"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "products" ("name", "price", "description", "stock", "image_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["name", "Stroopwafels"], ["price", "9.49"], ["description", "A stroopwafel is a waffle made from two thin layers of baked dough with a caramel-like syrup filling in the middle"], ["stock", 10], ["image_url", "https://upload.wikimedia.org/wikipedia/commons/9/9a/Stroopwafels_01.jpg"], ["created_at", "2016-06-16 18:41:11.774396"], ["updated_at", "2016-06-16 18:41:11.774396"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "products" ("name", "price", "description", "stock", "image_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Mazapan"], ["price", "5.99"], ["description", "Almond based cookie"], ["stock", 99], ["image_url", "http://farm4.static.flickr.com/3189/2740040709_9fb21d08ec.jpg"], ["created_at", "2016-06-16 18:41:11.776941"], ["updated_at", "2016-06-16 18:41:11.776941"]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "products" ("name", "price", "description", "stock", "image_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["name", "Jarritos"], ["price", "9.79"], ["description", "Delicious hibiscus flavored soft drink."], ["stock", 4], ["image_url", "http://texas-wholesale.com/images/products/760005%20-2920-JARRITOS-JAMAICA-12oz-24ct-.jpg"], ["created_at", "2016-06-16 18:41:11.778907"], ["updated_at", "2016-06-16 18:41:11.778907"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "products" ("name", "price", "description", "stock", "image_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Pelon Pelo Rico"], ["price", "9.79"], ["description", "Delicious tamarind candies"], ["stock", 10], ["image_url", "http://cdn1.bigcommerce.com/server2500/k2eyh8/products/151/images/365/Mexican_Candy_Hershey_Pelon_Pelo_Rico_Normal__53689.1365646002.1280.1280.jpg?c=2"], ["created_at", "2016-06-16 18:41:11.780818"], ["updated_at", "2016-06-16 18:41:11.780818"]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "products" ("name", "price", "description", "stock", "image_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["name", "Pepperkakor"], ["price", "4.99"], ["description", "A ginger biscuit, ginger nut or ginger snap is a globally popular biscuit based snack food, flavoured with ginger. Ginger biscuits are flavoured with powdered ginger and a variety of other spices, most commonly cinnamon, molasses and nutmeg"], ["stock", 30], ["image_url", "http://mittkok.expressen.se/wp-content/uploads/2014/12/08382c5d-740d-4741-8c3d-d2e96bbf5046-636x424.jpg"], ["created_at", "2016-06-16 18:41:11.782521"], ["updated_at", "2016-06-16 18:41:11.782521"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "products" ("name", "price", "description", "stock", "image_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Smoelen-trekkers"], ["price", "2.99"], ["description", "Sour & sugary candy"], ["stock", 100], ["image_url", "https://elsgoos.files.wordpress.com/2012/10/smoelentrekkers1.jpg"], ["created_at", "2016-06-16 18:41:11.784382"], ["updated_at", "2016-06-16 18:41:11.784382"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.6ms)[0m  SELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('tom@tom.com') LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "tom"], ["email", "tom@tom.com"], ["password_digest", "$2a$10$h.KfovykHXzmerGYm.ceJeLkfnBGlmSEaoOARlE87iJzSC0zP/wf."], ["created_at", "2016-06-16 18:41:11.862253"], ["updated_at", "2016-06-16 18:41:11.862253"]]
+  [1m[35m (2.0ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.3ms)[0m  SELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('tim@tim.com') LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("name", "email", "password_digest", "admin", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "tim"], ["email", "tim@tim.com"], ["password_digest", "$2a$10$j8rYM8uUoh.3mpelnUC.BOviBNTipeHlZXMtXPYt38pP2zzSR11G6"], ["admin", "t"], ["created_at", "2016-06-16 18:41:11.930486"], ["updated_at", "2016-06-16 18:41:11.930486"]]
+  [1m[35m (2.0ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "products_categories" ("product_id", "category_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["product_id", 1], ["category_id", 3], ["created_at", "2016-06-16 18:41:11.938146"], ["updated_at", "2016-06-16 18:41:11.938146"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "products_categories" ("product_id", "category_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["product_id", 1], ["category_id", 4], ["created_at", "2016-06-16 18:41:11.940244"], ["updated_at", "2016-06-16 18:41:11.940244"]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "products_categories" ("product_id", "category_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["product_id", 2], ["category_id", 3], ["created_at", "2016-06-16 18:41:11.941645"], ["updated_at", "2016-06-16 18:41:11.941645"]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "products_categories" ("product_id", "category_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["product_id", 2], ["category_id", 5], ["created_at", "2016-06-16 18:41:11.943003"], ["updated_at", "2016-06-16 18:41:11.943003"]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "products_categories" ("product_id", "category_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["product_id", 3], ["category_id", 3], ["created_at", "2016-06-16 18:41:11.944339"], ["updated_at", "2016-06-16 18:41:11.944339"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "products_categories" ("product_id", "category_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["product_id", 3], ["category_id", 4], ["created_at", "2016-06-16 18:41:11.945777"], ["updated_at", "2016-06-16 18:41:11.945777"]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "products_categories" ("product_id", "category_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["product_id", 4], ["category_id", 1], ["created_at", "2016-06-16 18:41:11.947343"], ["updated_at", "2016-06-16 18:41:11.947343"]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "products_categories" ("product_id", "category_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["product_id", 4], ["category_id", 4], ["created_at", "2016-06-16 18:41:11.948813"], ["updated_at", "2016-06-16 18:41:11.948813"]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "products_categories" ("product_id", "category_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["product_id", 5], ["category_id", 2], ["created_at", "2016-06-16 18:41:11.950079"], ["updated_at", "2016-06-16 18:41:11.950079"]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "products_categories" ("product_id", "category_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["product_id", 5], ["category_id", 4], ["created_at", "2016-06-16 18:41:11.951378"], ["updated_at", "2016-06-16 18:41:11.951378"]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "products_categories" ("product_id", "category_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["product_id", 6], ["category_id", 3], ["created_at", "2016-06-16 18:41:11.952546"], ["updated_at", "2016-06-16 18:41:11.952546"]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "products_categories" ("product_id", "category_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["product_id", 6], ["category_id", 5], ["created_at", "2016-06-16 18:41:11.953676"], ["updated_at", "2016-06-16 18:41:11.953676"]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "products_categories" ("product_id", "category_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["product_id", 7], ["category_id", 2], ["created_at", "2016-06-16 18:41:11.954867"], ["updated_at", "2016-06-16 18:41:11.954867"]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "products_categories" ("product_id", "category_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["product_id", 7], ["category_id", 6], ["created_at", "2016-06-16 18:41:11.956209"], ["updated_at", "2016-06-16 18:41:11.956209"]]
+  [1m[35m (0.2ms)[0m  COMMIT
+
+
+Started GET "/" for ::1 at 2016-06-16 11:41:20 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+Redirected to http://localhost:3000/products
+Completed 302 Found in 7ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/products" for ::1 at 2016-06-16 11:41:20 -0700
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.7ms)[0m  SELECT "products".* FROM "products"
+  [1m[36mCategory Load (0.6ms)[0m  [1mSELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1[0m  [["product_id", 1]]
+  [1m[35mCategory Load (0.5ms)[0m  SELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1  [["product_id", 2]]
+  [1m[36mCategory Load (0.3ms)[0m  [1mSELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1[0m  [["product_id", 3]]
+  [1m[35mCategory Load (0.3ms)[0m  SELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1  [["product_id", 4]]
+  [1m[36mCategory Load (0.3ms)[0m  [1mSELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1[0m  [["product_id", 5]]
+  [1m[35mCategory Load (0.3ms)[0m  SELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1  [["product_id", 6]]
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1[0m  [["product_id", 7]]
+  Rendered products/index.html.haml within layouts/application (327.8ms)
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCategory Load (0.4ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+Completed 200 OK in 5091ms (Views: 5075.2ms | ActiveRecord: 11.5ms)
+
+
+Started GET "/" for ::1 at 2016-06-16 11:41:26 -0700
+Processing by HomeController#index as HTML
+Redirected to http://localhost:3000/products
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/products" for ::1 at 2016-06-16 11:41:26 -0700
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.3ms)[0m  SELECT "products".* FROM "products"
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1[0m  [["product_id", 1]]
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1  [["product_id", 2]]
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1[0m  [["product_id", 3]]
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1  [["product_id", 4]]
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1[0m  [["product_id", 5]]
+  [1m[35mCategory Load (0.1ms)[0m  SELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1  [["product_id", 6]]
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1[0m  [["product_id", 7]]
+  Rendered products/index.html.haml within layouts/application (19.3ms)
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+Completed 200 OK in 66ms (Views: 63.1ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-16 11:41:26 -0700
+
+
+Started GET "/assets/admin/products.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-06-16 11:41:26 -0700
+
+
+Started GET "/assets/category.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-06-16 11:41:26 -0700
+
+
+Started GET "/assets/home.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-06-16 11:41:26 -0700
+
+
+Started GET "/assets/products.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-06-16 11:41:26 -0700
+
+
+Started GET "/assets/sessions.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-06-16 11:41:26 -0700
+
+
+Started GET "/assets/users.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-06-16 11:41:26 -0700
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-16 11:41:26 -0700
+
+
+Started GET "/logout" for ::1 at 2016-06-16 11:43:06 -0700
+Processing by SessionsController#destroy as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-06-16 11:43:06 -0700
+Processing by HomeController#index as HTML
+Redirected to http://localhost:3000/products
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/products" for ::1 at 2016-06-16 11:43:06 -0700
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.4ms)[0m  SELECT "products".* FROM "products"
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1[0m  [["product_id", 1]]
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1  [["product_id", 2]]
+  [1m[36mCategory Load (0.1ms)[0m  [1mSELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1[0m  [["product_id", 3]]
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1  [["product_id", 4]]
+  [1m[36mCategory Load (0.1ms)[0m  [1mSELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1[0m  [["product_id", 5]]
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1  [["product_id", 6]]
+  [1m[36mCategory Load (0.1ms)[0m  [1mSELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1[0m  [["product_id", 7]]
+  Rendered products/index.html.haml within layouts/application (11.9ms)
+  [1m[35mCategory Load (0.4ms)[0m  SELECT "categories".* FROM "categories"
+Completed 200 OK in 57ms (Views: 54.8ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/login" for ::1 at 2016-06-16 11:43:08 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.haml within layouts/application (6.3ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+Completed 200 OK in 30ms (Views: 30.0ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/login" for ::1 at 2016-06-16 11:43:23 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"2T3bgGDIFUvrj1pw3SfPc8hb2BcVX3F7SCvz/XdpbmukgipDS4okQYl7iQI8LXnvfZukk/JWFatPQLuOf3/zrg==", "session"=>{"email"=>"tim@tim.com", "password"=>"[FILTERED]"}, "commit"=>"Login"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT 1  [["email", "tim@tim.com"]]
+Redirected to http://localhost:3000/users/2
+Completed 302 Found in 71ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/users/2" for ::1 at 2016-06-16 11:43:23 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  Rendered users/show.html.haml within layouts/application (0.8ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCategory Load (0.3ms)[0m  SELECT "categories".* FROM "categories"
+Completed 200 OK in 29ms (Views: 28.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/admin/products" for ::1 at 2016-06-16 11:43:28 -0700
+Processing by Admin::ProductsController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mProduct Load (0.4ms)[0m  SELECT "products".* FROM "products"
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1[0m  [["product_id", 1]]
+  [1m[35mCategory Load (0.3ms)[0m  SELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1  [["product_id", 2]]
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1[0m  [["product_id", 3]]
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1  [["product_id", 4]]
+  [1m[36mCategory Load (0.3ms)[0m  [1mSELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1[0m  [["product_id", 5]]
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1  [["product_id", 6]]
+  [1m[36mCategory Load (0.1ms)[0m  [1mSELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1[0m  [["product_id", 7]]
+  Rendered admin/products/index.html.haml within layouts/application (23.6ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mCategory Load (0.5ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+Completed 200 OK in 62ms (Views: 57.5ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/admin/products/1/edit" for ::1 at 2016-06-16 11:43:36 -0700
+Processing by Admin::ProductsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT  "products".* FROM "products" WHERE "products"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCategory Load (0.3ms)[0m  SELECT "categories".* FROM "categories"
+  Rendered admin/products/edit.html.haml within layouts/application (17.1ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "categories".* FROM "categories"
+Completed 200 OK in 56ms (Views: 51.7ms | ActiveRecord: 0.8ms)
+
+
+Started PATCH "/admin/products/" for ::1 at 2016-06-16 11:43:49 -0700
+
+ActionController::RoutingError (No route matches [PATCH] "/admin/products"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  thin (1.7.0) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.7.0) lib/thin/connection.rb:84:in `catch'
+  thin (1.7.0) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.7.0) lib/thin/connection.rb:53:in `process'
+  thin (1.7.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run_machine'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run'
+  thin (1.7.0) lib/thin/backends/base.rb:73:in `start'
+  thin (1.7.0) lib/thin/server.rb:162:in `start'
+  rack (1.6.4) lib/rack/handler/thin.rb:19:in `run'
+  rack (1.6.4) lib/rack/server.rb:286:in `start'
+  railties (4.2.6) lib/rails/commands/server.rb:80:in `start'
+  railties (4.2.6) lib/rails/commands/commands_tasks.rb:80:in `block in server'
+  railties (4.2.6) lib/rails/commands/commands_tasks.rb:75:in `tap'
+  railties (4.2.6) lib/rails/commands/commands_tasks.rb:75:in `server'
+  railties (4.2.6) lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+  railties (4.2.6) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:4:in `require'
+  bin/rails:4:in `<main>'
+
+
+  Rendered /Users/BrianJChung/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/BrianJChung/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.9ms)
+  Rendered /Users/BrianJChung/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.4ms)
+  Rendered /Users/BrianJChung/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/BrianJChung/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (105.2ms)
+
+
+Started GET "/favicon.ico" for ::1 at 2016-06-16 11:43:49 -0700
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  thin (1.7.0) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.7.0) lib/thin/connection.rb:84:in `catch'
+  thin (1.7.0) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.7.0) lib/thin/connection.rb:53:in `process'
+  thin (1.7.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run_machine'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run'
+  thin (1.7.0) lib/thin/backends/base.rb:73:in `start'
+  thin (1.7.0) lib/thin/server.rb:162:in `start'
+  rack (1.6.4) lib/rack/handler/thin.rb:19:in `run'
+  rack (1.6.4) lib/rack/server.rb:286:in `start'
+  railties (4.2.6) lib/rails/commands/server.rb:80:in `start'
+  railties (4.2.6) lib/rails/commands/commands_tasks.rb:80:in `block in server'
+  railties (4.2.6) lib/rails/commands/commands_tasks.rb:75:in `tap'
+  railties (4.2.6) lib/rails/commands/commands_tasks.rb:75:in `server'
+  railties (4.2.6) lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+  railties (4.2.6) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:4:in `require'
+  bin/rails:4:in `<main>'
+
+
+  Rendered /Users/BrianJChung/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/BrianJChung/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.7ms)
+  Rendered /Users/BrianJChung/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /Users/BrianJChung/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/BrianJChung/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (82.0ms)
+
+
+Started GET "/admin/products" for ::1 at 2016-06-16 11:43:56 -0700
+Processing by Admin::ProductsController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mProduct Load (0.3ms)[0m  SELECT "products".* FROM "products"
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1[0m  [["product_id", 1]]
+  [1m[35mCategory Load (0.1ms)[0m  SELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1  [["product_id", 2]]
+  [1m[36mCategory Load (0.1ms)[0m  [1mSELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1[0m  [["product_id", 3]]
+  [1m[35mCategory Load (0.1ms)[0m  SELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1  [["product_id", 4]]
+  [1m[36mCategory Load (0.1ms)[0m  [1mSELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1[0m  [["product_id", 5]]
+  [1m[35mCategory Load (0.1ms)[0m  SELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1  [["product_id", 6]]
+  [1m[36mCategory Load (0.1ms)[0m  [1mSELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1[0m  [["product_id", 7]]
+  Rendered admin/products/index.html.haml within layouts/application (9.7ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mCategory Load (0.3ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+Completed 200 OK in 29ms (Views: 26.5ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/admin/products/new" for ::1 at 2016-06-16 11:43:58 -0700
+Processing by Admin::ProductsController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+  Rendered admin/products/new.html.haml within layouts/application (5.4ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+Completed 200 OK in 28ms (Views: 25.4ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/admin/products" for ::1 at 2016-06-16 11:45:07 -0700
+Processing by Admin::ProductsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"KiwQom+m/KaS5NvdI+4sUxxbg4fzSGkwzOB6Z9JqF6tXk+FhROTNrPAQCK/C5JrPqZv/AxRBDeDLizIU2nyKbg==", "product"=>{"name"=>"Chocoloate", "stock"=>"14", "price"=>"50", "description"=>"Expensive chocolate", "image_url"=>"https://upload.wikimedia.org/wikipedia/commons/9/9f/Chocolate(bgFFF).jpg"}, "category_ids"=>["2", "3", "4"], "commit"=>"Create Product"}
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "products" ("name", "price", "description", "image_url", "stock", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["name", "Chocoloate"], ["price", "50.0"], ["description", "Expensive chocolate"], ["image_url", "https://upload.wikimedia.org/wikipedia/commons/9/9f/Chocolate(bgFFF).jpg"], ["stock", 14], ["created_at", "2016-06-16 18:45:07.639230"], ["updated_at", "2016-06-16 18:45:07.639230"]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35mCategory Load (0.2ms)[0m  SELECT  "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "products_categories" ("category_id", "product_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["category_id", 2], ["product_id", 8], ["created_at", "2016-06-16 18:45:07.645524"], ["updated_at", "2016-06-16 18:45:07.645524"]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35mCategory Load (0.2ms)[0m  SELECT  "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "products_categories" ("category_id", "product_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["category_id", 3], ["product_id", 8], ["created_at", "2016-06-16 18:45:07.647616"], ["updated_at", "2016-06-16 18:45:07.647616"]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35mCategory Load (0.2ms)[0m  SELECT  "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT 1  [["id", 4]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "products_categories" ("category_id", "product_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["category_id", 4], ["product_id", 8], ["created_at", "2016-06-16 18:45:07.649470"], ["updated_at", "2016-06-16 18:45:07.649470"]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/products/8
+Completed 302 Found in 15ms (ActiveRecord: 3.8ms)
+
+
+Started GET "/products/8" for ::1 at 2016-06-16 11:45:07 -0700
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[35mProduct Load (0.4ms)[0m  SELECT  "products".* FROM "products" WHERE "products"."id" = $1 LIMIT 1  [["id", 8]]
+  Rendered products/show.html.haml within layouts/application (3.2ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCategory Load (0.3ms)[0m  SELECT "categories".* FROM "categories"
+Completed 200 OK in 26ms (Views: 24.5ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/products" for ::1 at 2016-06-16 11:45:10 -0700
+Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.3ms)[0m  [1mSELECT "products".* FROM "products"[0m
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1  [["product_id", 1]]
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1[0m  [["product_id", 2]]
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1  [["product_id", 3]]
+  [1m[36mCategory Load (0.1ms)[0m  [1mSELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1[0m  [["product_id", 4]]
+  [1m[35mCategory Load (0.1ms)[0m  SELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1  [["product_id", 5]]
+  [1m[36mCategory Load (0.1ms)[0m  [1mSELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1[0m  [["product_id", 6]]
+  [1m[35mCategory Load (0.1ms)[0m  SELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1  [["product_id", 7]]
+  [1m[36mCategory Load (0.1ms)[0m  [1mSELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1[0m  [["product_id", 8]]
+  Rendered products/index.html.haml within layouts/application (10.4ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mCategory Load (0.3ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+Completed 200 OK in 28ms (Views: 26.2ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/products" for ::1 at 2016-06-16 11:57:00 -0700
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.3ms)[0m  SELECT "products".* FROM "products"
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1[0m  [["product_id", 1]]
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1  [["product_id", 2]]
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1[0m  [["product_id", 3]]
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1  [["product_id", 4]]
+  [1m[36mCategory Load (0.1ms)[0m  [1mSELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1[0m  [["product_id", 5]]
+  [1m[35mCategory Load (0.1ms)[0m  SELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1  [["product_id", 6]]
+  [1m[36mCategory Load (0.1ms)[0m  [1mSELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1[0m  [["product_id", 7]]
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1  [["product_id", 8]]
+  Rendered products/index.html.haml within layouts/application (25.7ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCategory Load (0.3ms)[0m  SELECT "categories".* FROM "categories"
+Completed 200 OK in 65ms (Views: 52.0ms | ActiveRecord: 7.5ms)
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-16 11:57:00 -0700
+
+
+Started GET "/assets/admin/products.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-06-16 11:57:00 -0700
+
+
+Started GET "/assets/category.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-06-16 11:57:00 -0700
+
+
+Started GET "/assets/home.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-06-16 11:57:00 -0700
+
+
+Started GET "/assets/products.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-06-16 11:57:00 -0700
+
+
+Started GET "/assets/sessions.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-06-16 11:57:00 -0700
+
+
+Started GET "/assets/users.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-06-16 11:57:00 -0700
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-16 11:57:00 -0700
+
+
+Started GET "/categories/1" for ::1 at 2016-06-16 11:57:02 -0700
+
+ActionController::RoutingError - uninitialized constant CategoriesController:
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:63:in `rescue in controller'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:58:in `controller'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:39:in `serve'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:817:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.6) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.6) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.6) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  thin (1.7.0) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.7.0) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.7.0) lib/thin/connection.rb:53:in `process'
+  thin (1.7.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run'
+  thin (1.7.0) lib/thin/backends/base.rb:73:in `start'
+  thin (1.7.0) lib/thin/server.rb:162:in `start'
+  rack (1.6.4) lib/rack/handler/thin.rb:19:in `run'
+  rack (1.6.4) lib/rack/server.rb:286:in `start'
+  railties (4.2.6) lib/rails/commands/server.rb:80:in `start'
+  railties (4.2.6) lib/rails/commands/commands_tasks.rb:80:in `block in server'
+  railties (4.2.6) lib/rails/commands/commands_tasks.rb:75:in `server'
+  railties (4.2.6) lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+  railties (4.2.6) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:4:in `<main>'
+
+
+
+Started POST "/__better_errors/2ec21255799aa53c/variables" for ::1 at 2016-06-16 11:57:02 -0700
+
+NameError (wrong local variable name `#$!' for #<Binding:0x007fe546850880>):
+  better_errors (2.1.1) lib/better_errors/stack_frame.rb:73:in `local_variable_get'
+  better_errors (2.1.1) lib/better_errors/stack_frame.rb:73:in `block in local_variables'
+  better_errors (2.1.1) lib/better_errors/stack_frame.rb:71:in `each'
+  better_errors (2.1.1) lib/better_errors/stack_frame.rb:71:in `each_with_object'
+  better_errors (2.1.1) lib/better_errors/stack_frame.rb:71:in `local_variables'
+  (erubis:52:in `render'
+  erubis (2.7.0) lib/erubis/evaluator.rb:65:in `eval'
+  erubis (2.7.0) lib/erubis/evaluator.rb:65:in `result'
+  better_errors (2.1.1) lib/better_errors/error_page.rb:30:in `render'
+  better_errors (2.1.1) lib/better_errors/error_page.rb:37:in `do_variables'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:132:in `internal_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:75:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  thin (1.7.0) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.7.0) lib/thin/connection.rb:84:in `catch'
+  thin (1.7.0) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.7.0) lib/thin/connection.rb:53:in `process'
+  thin (1.7.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run_machine'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run'
+  thin (1.7.0) lib/thin/backends/base.rb:73:in `start'
+  thin (1.7.0) lib/thin/server.rb:162:in `start'
+  rack (1.6.4) lib/rack/handler/thin.rb:19:in `run'
+  rack (1.6.4) lib/rack/server.rb:286:in `start'
+  railties (4.2.6) lib/rails/commands/server.rb:80:in `start'
+  railties (4.2.6) lib/rails/commands/commands_tasks.rb:80:in `block in server'
+  railties (4.2.6) lib/rails/commands/commands_tasks.rb:75:in `tap'
+  railties (4.2.6) lib/rails/commands/commands_tasks.rb:75:in `server'
+  railties (4.2.6) lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+  railties (4.2.6) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:4:in `require'
+  bin/rails:4:in `<main>'
+
+
+  Rendered /Users/BrianJChung/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.0ms)
+  Rendered /Users/BrianJChung/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Users/BrianJChung/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/BrianJChung/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (48.9ms)
+
+
+Started GET "/categories/1" for ::1 at 2016-06-16 11:57:44 -0700
+
+ActionController::RoutingError - uninitialized constant CategoriesController:
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:63:in `rescue in controller'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:58:in `controller'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:39:in `serve'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:817:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.6) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.6) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.6) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  thin (1.7.0) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.7.0) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.7.0) lib/thin/connection.rb:53:in `process'
+  thin (1.7.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run'
+  thin (1.7.0) lib/thin/backends/base.rb:73:in `start'
+  thin (1.7.0) lib/thin/server.rb:162:in `start'
+  rack (1.6.4) lib/rack/handler/thin.rb:19:in `run'
+  rack (1.6.4) lib/rack/server.rb:286:in `start'
+  railties (4.2.6) lib/rails/commands/server.rb:80:in `start'
+  railties (4.2.6) lib/rails/commands/commands_tasks.rb:80:in `block in server'
+  railties (4.2.6) lib/rails/commands/commands_tasks.rb:75:in `server'
+  railties (4.2.6) lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+  railties (4.2.6) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:4:in `<main>'
+
+
+
+Started POST "/__better_errors/2f9b4fd7f4ce66e9/variables" for ::1 at 2016-06-16 11:57:44 -0700
+
+NameError (wrong local variable name `#$!' for #<Binding:0x007fe544dd2878>):
+  better_errors (2.1.1) lib/better_errors/stack_frame.rb:73:in `local_variable_get'
+  better_errors (2.1.1) lib/better_errors/stack_frame.rb:73:in `block in local_variables'
+  better_errors (2.1.1) lib/better_errors/stack_frame.rb:71:in `each'
+  better_errors (2.1.1) lib/better_errors/stack_frame.rb:71:in `each_with_object'
+  better_errors (2.1.1) lib/better_errors/stack_frame.rb:71:in `local_variables'
+  (erubis:52:in `render'
+  erubis (2.7.0) lib/erubis/evaluator.rb:65:in `eval'
+  erubis (2.7.0) lib/erubis/evaluator.rb:65:in `result'
+  better_errors (2.1.1) lib/better_errors/error_page.rb:30:in `render'
+  better_errors (2.1.1) lib/better_errors/error_page.rb:37:in `do_variables'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:132:in `internal_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:75:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  thin (1.7.0) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.7.0) lib/thin/connection.rb:84:in `catch'
+  thin (1.7.0) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.7.0) lib/thin/connection.rb:53:in `process'
+  thin (1.7.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run_machine'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run'
+  thin (1.7.0) lib/thin/backends/base.rb:73:in `start'
+  thin (1.7.0) lib/thin/server.rb:162:in `start'
+  rack (1.6.4) lib/rack/handler/thin.rb:19:in `run'
+  rack (1.6.4) lib/rack/server.rb:286:in `start'
+  railties (4.2.6) lib/rails/commands/server.rb:80:in `start'
+  railties (4.2.6) lib/rails/commands/commands_tasks.rb:80:in `block in server'
+  railties (4.2.6) lib/rails/commands/commands_tasks.rb:75:in `tap'
+  railties (4.2.6) lib/rails/commands/commands_tasks.rb:75:in `server'
+  railties (4.2.6) lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+  railties (4.2.6) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:4:in `require'
+  bin/rails:4:in `<main>'
+
+
+  Rendered /Users/BrianJChung/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.4ms)
+  Rendered /Users/BrianJChung/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /Users/BrianJChung/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/BrianJChung/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (46.4ms)
+
+
+Started GET "/products" for ::1 at 2016-06-16 11:57:47 -0700
+Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.3ms)[0m  [1mSELECT "products".* FROM "products"[0m
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1  [["product_id", 1]]
+  [1m[36mCategory Load (0.1ms)[0m  [1mSELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1[0m  [["product_id", 2]]
+  [1m[35mCategory Load (0.1ms)[0m  SELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1  [["product_id", 3]]
+  [1m[36mCategory Load (0.1ms)[0m  [1mSELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1[0m  [["product_id", 4]]
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1  [["product_id", 5]]
+  [1m[36mCategory Load (0.1ms)[0m  [1mSELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1[0m  [["product_id", 6]]
+  [1m[35mCategory Load (0.1ms)[0m  SELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1  [["product_id", 7]]
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1[0m  [["product_id", 8]]
+  Rendered products/index.html.haml within layouts/application (10.3ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mCategory Load (0.3ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+Completed 200 OK in 34ms (Views: 31.7ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-16 11:57:47 -0700
+
+
+Started GET "/assets/admin/products.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-06-16 11:57:47 -0700
+
+
+Started GET "/assets/category.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-06-16 11:57:47 -0700
+
+
+Started GET "/assets/home.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-06-16 11:57:47 -0700
+
+
+Started GET "/assets/products.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-06-16 11:57:47 -0700
+
+
+Started GET "/assets/sessions.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-06-16 11:57:47 -0700
+
+
+Started GET "/assets/users.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-06-16 11:57:47 -0700
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-16 11:57:47 -0700
+
+
+Started GET "/categories.1" for ::1 at 2016-06-16 11:57:49 -0700
+
+ActionController::RoutingError - uninitialized constant CategoriesController:
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:63:in `rescue in controller'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:58:in `controller'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:39:in `serve'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:817:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.6) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.6) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.6) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  thin (1.7.0) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.7.0) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.7.0) lib/thin/connection.rb:53:in `process'
+  thin (1.7.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run'
+  thin (1.7.0) lib/thin/backends/base.rb:73:in `start'
+  thin (1.7.0) lib/thin/server.rb:162:in `start'
+  rack (1.6.4) lib/rack/handler/thin.rb:19:in `run'
+  rack (1.6.4) lib/rack/server.rb:286:in `start'
+  railties (4.2.6) lib/rails/commands/server.rb:80:in `start'
+  railties (4.2.6) lib/rails/commands/commands_tasks.rb:80:in `block in server'
+  railties (4.2.6) lib/rails/commands/commands_tasks.rb:75:in `server'
+  railties (4.2.6) lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+  railties (4.2.6) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:4:in `<main>'
+
+
+
+Started POST "/__better_errors/d1acfdaace4d8d43/variables" for ::1 at 2016-06-16 11:57:49 -0700
+
+NameError (wrong local variable name `#$!' for #<Binding:0x007fe54788b830>):
+  better_errors (2.1.1) lib/better_errors/stack_frame.rb:73:in `local_variable_get'
+  better_errors (2.1.1) lib/better_errors/stack_frame.rb:73:in `block in local_variables'
+  better_errors (2.1.1) lib/better_errors/stack_frame.rb:71:in `each'
+  better_errors (2.1.1) lib/better_errors/stack_frame.rb:71:in `each_with_object'
+  better_errors (2.1.1) lib/better_errors/stack_frame.rb:71:in `local_variables'
+  (erubis:52:in `render'
+  erubis (2.7.0) lib/erubis/evaluator.rb:65:in `eval'
+  erubis (2.7.0) lib/erubis/evaluator.rb:65:in `result'
+  better_errors (2.1.1) lib/better_errors/error_page.rb:30:in `render'
+  better_errors (2.1.1) lib/better_errors/error_page.rb:37:in `do_variables'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:132:in `internal_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:75:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  thin (1.7.0) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.7.0) lib/thin/connection.rb:84:in `catch'
+  thin (1.7.0) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.7.0) lib/thin/connection.rb:53:in `process'
+  thin (1.7.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run_machine'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run'
+  thin (1.7.0) lib/thin/backends/base.rb:73:in `start'
+  thin (1.7.0) lib/thin/server.rb:162:in `start'
+  rack (1.6.4) lib/rack/handler/thin.rb:19:in `run'
+  rack (1.6.4) lib/rack/server.rb:286:in `start'
+  railties (4.2.6) lib/rails/commands/server.rb:80:in `start'
+  railties (4.2.6) lib/rails/commands/commands_tasks.rb:80:in `block in server'
+  railties (4.2.6) lib/rails/commands/commands_tasks.rb:75:in `tap'
+  railties (4.2.6) lib/rails/commands/commands_tasks.rb:75:in `server'
+  railties (4.2.6) lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+  railties (4.2.6) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:4:in `require'
+  bin/rails:4:in `<main>'
+
+
+  Rendered /Users/BrianJChung/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.2ms)
+  Rendered /Users/BrianJChung/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Users/BrianJChung/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/BrianJChung/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (47.8ms)
+
+
+Started GET "/categories.1" for ::1 at 2016-06-16 11:58:22 -0700
+
+ActionController::RoutingError - uninitialized constant CategoriesController:
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:63:in `rescue in controller'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:58:in `controller'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:39:in `serve'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:817:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.6) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.6) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.6) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  thin (1.7.0) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.7.0) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.7.0) lib/thin/connection.rb:53:in `process'
+  thin (1.7.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run'
+  thin (1.7.0) lib/thin/backends/base.rb:73:in `start'
+  thin (1.7.0) lib/thin/server.rb:162:in `start'
+  rack (1.6.4) lib/rack/handler/thin.rb:19:in `run'
+  rack (1.6.4) lib/rack/server.rb:286:in `start'
+  railties (4.2.6) lib/rails/commands/server.rb:80:in `start'
+  railties (4.2.6) lib/rails/commands/commands_tasks.rb:80:in `block in server'
+  railties (4.2.6) lib/rails/commands/commands_tasks.rb:75:in `server'
+  railties (4.2.6) lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+  railties (4.2.6) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:4:in `<main>'
+
+
+
+Started POST "/__better_errors/692a0d9c9a36d0b3/variables" for ::1 at 2016-06-16 11:58:22 -0700
+
+NameError (wrong local variable name `#$!' for #<Binding:0x007fe546a212e0>):
+  better_errors (2.1.1) lib/better_errors/stack_frame.rb:73:in `local_variable_get'
+  better_errors (2.1.1) lib/better_errors/stack_frame.rb:73:in `block in local_variables'
+  better_errors (2.1.1) lib/better_errors/stack_frame.rb:71:in `each'
+  better_errors (2.1.1) lib/better_errors/stack_frame.rb:71:in `each_with_object'
+  better_errors (2.1.1) lib/better_errors/stack_frame.rb:71:in `local_variables'
+  (erubis:52:in `render'
+  erubis (2.7.0) lib/erubis/evaluator.rb:65:in `eval'
+  erubis (2.7.0) lib/erubis/evaluator.rb:65:in `result'
+  better_errors (2.1.1) lib/better_errors/error_page.rb:30:in `render'
+  better_errors (2.1.1) lib/better_errors/error_page.rb:37:in `do_variables'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:132:in `internal_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:75:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  thin (1.7.0) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.7.0) lib/thin/connection.rb:84:in `catch'
+  thin (1.7.0) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.7.0) lib/thin/connection.rb:53:in `process'
+  thin (1.7.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run_machine'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run'
+  thin (1.7.0) lib/thin/backends/base.rb:73:in `start'
+  thin (1.7.0) lib/thin/server.rb:162:in `start'
+  rack (1.6.4) lib/rack/handler/thin.rb:19:in `run'
+  rack (1.6.4) lib/rack/server.rb:286:in `start'
+  railties (4.2.6) lib/rails/commands/server.rb:80:in `start'
+  railties (4.2.6) lib/rails/commands/commands_tasks.rb:80:in `block in server'
+  railties (4.2.6) lib/rails/commands/commands_tasks.rb:75:in `tap'
+  railties (4.2.6) lib/rails/commands/commands_tasks.rb:75:in `server'
+  railties (4.2.6) lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+  railties (4.2.6) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:4:in `require'
+  bin/rails:4:in `<main>'
+
+
+  Rendered /Users/BrianJChung/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.3ms)
+  Rendered /Users/BrianJChung/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /Users/BrianJChung/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/BrianJChung/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (53.0ms)
+
+
+Started GET "/products" for ::1 at 2016-06-16 11:58:24 -0700
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.3ms)[0m  SELECT "products".* FROM "products"
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1[0m  [["product_id", 1]]
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1  [["product_id", 2]]
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1[0m  [["product_id", 3]]
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1  [["product_id", 4]]
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1[0m  [["product_id", 5]]
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1  [["product_id", 6]]
+  [1m[36mCategory Load (0.7ms)[0m  [1mSELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1[0m  [["product_id", 7]]
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1  [["product_id", 8]]
+  Rendered products/index.html.haml within layouts/application (33.9ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCategory Load (0.3ms)[0m  SELECT "categories".* FROM "categories"
+Completed 200 OK in 74ms (Views: 59.6ms | ActiveRecord: 9.1ms)
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-16 11:58:24 -0700
+
+
+Started GET "/assets/admin/products.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-06-16 11:58:24 -0700
+
+
+Started GET "/assets/category.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-06-16 11:58:24 -0700
+
+
+Started GET "/assets/home.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-06-16 11:58:24 -0700
+
+
+Started GET "/assets/products.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-06-16 11:58:24 -0700
+
+
+Started GET "/assets/sessions.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-06-16 11:58:24 -0700
+
+
+Started GET "/assets/users.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-06-16 11:58:24 -0700
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-16 11:58:24 -0700
+
+
+Started GET "/categories.1" for ::1 at 2016-06-16 11:58:31 -0700
+
+ActionController::RoutingError - uninitialized constant CategoriesController:
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:63:in `rescue in controller'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:58:in `controller'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:39:in `serve'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:817:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.6) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.6) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.6) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  thin (1.7.0) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.7.0) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.7.0) lib/thin/connection.rb:53:in `process'
+  thin (1.7.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run'
+  thin (1.7.0) lib/thin/backends/base.rb:73:in `start'
+  thin (1.7.0) lib/thin/server.rb:162:in `start'
+  rack (1.6.4) lib/rack/handler/thin.rb:19:in `run'
+  rack (1.6.4) lib/rack/server.rb:286:in `start'
+  railties (4.2.6) lib/rails/commands/server.rb:80:in `start'
+  railties (4.2.6) lib/rails/commands/commands_tasks.rb:80:in `block in server'
+  railties (4.2.6) lib/rails/commands/commands_tasks.rb:75:in `server'
+  railties (4.2.6) lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+  railties (4.2.6) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:4:in `<main>'
+
+
+
+Started POST "/__better_errors/02e95516bb5e7242/variables" for ::1 at 2016-06-16 11:58:31 -0700
+
+NameError (wrong local variable name `#$!' for #<Binding:0x007fe544701170>):
+  better_errors (2.1.1) lib/better_errors/stack_frame.rb:73:in `local_variable_get'
+  better_errors (2.1.1) lib/better_errors/stack_frame.rb:73:in `block in local_variables'
+  better_errors (2.1.1) lib/better_errors/stack_frame.rb:71:in `each'
+  better_errors (2.1.1) lib/better_errors/stack_frame.rb:71:in `each_with_object'
+  better_errors (2.1.1) lib/better_errors/stack_frame.rb:71:in `local_variables'
+  (erubis:52:in `render'
+  erubis (2.7.0) lib/erubis/evaluator.rb:65:in `eval'
+  erubis (2.7.0) lib/erubis/evaluator.rb:65:in `result'
+  better_errors (2.1.1) lib/better_errors/error_page.rb:30:in `render'
+  better_errors (2.1.1) lib/better_errors/error_page.rb:37:in `do_variables'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:132:in `internal_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:75:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  thin (1.7.0) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.7.0) lib/thin/connection.rb:84:in `catch'
+  thin (1.7.0) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.7.0) lib/thin/connection.rb:53:in `process'
+  thin (1.7.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run_machine'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run'
+  thin (1.7.0) lib/thin/backends/base.rb:73:in `start'
+  thin (1.7.0) lib/thin/server.rb:162:in `start'
+  rack (1.6.4) lib/rack/handler/thin.rb:19:in `run'
+  rack (1.6.4) lib/rack/server.rb:286:in `start'
+  railties (4.2.6) lib/rails/commands/server.rb:80:in `start'
+  railties (4.2.6) lib/rails/commands/commands_tasks.rb:80:in `block in server'
+  railties (4.2.6) lib/rails/commands/commands_tasks.rb:75:in `tap'
+  railties (4.2.6) lib/rails/commands/commands_tasks.rb:75:in `server'
+  railties (4.2.6) lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+  railties (4.2.6) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:4:in `require'
+  bin/rails:4:in `<main>'
+
+
+  Rendered /Users/BrianJChung/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.0ms)
+  Rendered /Users/BrianJChung/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /Users/BrianJChung/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /Users/BrianJChung/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (47.5ms)
+
+
+Started GET "/categories.1" for ::1 at 2016-06-16 11:58:40 -0700
+
+ActionController::RoutingError (No route matches [GET] "/categories.1"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  thin (1.7.0) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.7.0) lib/thin/connection.rb:84:in `catch'
+  thin (1.7.0) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.7.0) lib/thin/connection.rb:53:in `process'
+  thin (1.7.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run_machine'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run'
+  thin (1.7.0) lib/thin/backends/base.rb:73:in `start'
+  thin (1.7.0) lib/thin/server.rb:162:in `start'
+  rack (1.6.4) lib/rack/handler/thin.rb:19:in `run'
+  rack (1.6.4) lib/rack/server.rb:286:in `start'
+  railties (4.2.6) lib/rails/commands/server.rb:80:in `start'
+  railties (4.2.6) lib/rails/commands/commands_tasks.rb:80:in `block in server'
+  railties (4.2.6) lib/rails/commands/commands_tasks.rb:75:in `tap'
+  railties (4.2.6) lib/rails/commands/commands_tasks.rb:75:in `server'
+  railties (4.2.6) lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+  railties (4.2.6) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:4:in `require'
+  bin/rails:4:in `<main>'
+
+
+  Rendered /Users/BrianJChung/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/BrianJChung/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.0ms)
+  Rendered /Users/BrianJChung/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /Users/BrianJChung/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/BrianJChung/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (83.5ms)
+
+
+Started GET "/categories.1" for ::1 at 2016-06-16 11:59:02 -0700
+
+ActionController::RoutingError - uninitialized constant CategoriesController:
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:63:in `rescue in controller'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:58:in `controller'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:39:in `serve'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:817:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.6) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.6) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.6) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  thin (1.7.0) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.7.0) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.7.0) lib/thin/connection.rb:53:in `process'
+  thin (1.7.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run'
+  thin (1.7.0) lib/thin/backends/base.rb:73:in `start'
+  thin (1.7.0) lib/thin/server.rb:162:in `start'
+  rack (1.6.4) lib/rack/handler/thin.rb:19:in `run'
+  rack (1.6.4) lib/rack/server.rb:286:in `start'
+  railties (4.2.6) lib/rails/commands/server.rb:80:in `start'
+  railties (4.2.6) lib/rails/commands/commands_tasks.rb:80:in `block in server'
+  railties (4.2.6) lib/rails/commands/commands_tasks.rb:75:in `server'
+  railties (4.2.6) lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+  railties (4.2.6) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:4:in `<main>'
+
+
+
+Started POST "/__better_errors/b85f2856bc18c226/variables" for ::1 at 2016-06-16 11:59:02 -0700
+
+NameError (wrong local variable name `#$!' for #<Binding:0x007fe54448fe50>):
+  better_errors (2.1.1) lib/better_errors/stack_frame.rb:73:in `local_variable_get'
+  better_errors (2.1.1) lib/better_errors/stack_frame.rb:73:in `block in local_variables'
+  better_errors (2.1.1) lib/better_errors/stack_frame.rb:71:in `each'
+  better_errors (2.1.1) lib/better_errors/stack_frame.rb:71:in `each_with_object'
+  better_errors (2.1.1) lib/better_errors/stack_frame.rb:71:in `local_variables'
+  (erubis:52:in `render'
+  erubis (2.7.0) lib/erubis/evaluator.rb:65:in `eval'
+  erubis (2.7.0) lib/erubis/evaluator.rb:65:in `result'
+  better_errors (2.1.1) lib/better_errors/error_page.rb:30:in `render'
+  better_errors (2.1.1) lib/better_errors/error_page.rb:37:in `do_variables'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:132:in `internal_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:75:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  thin (1.7.0) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.7.0) lib/thin/connection.rb:84:in `catch'
+  thin (1.7.0) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.7.0) lib/thin/connection.rb:53:in `process'
+  thin (1.7.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run_machine'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run'
+  thin (1.7.0) lib/thin/backends/base.rb:73:in `start'
+  thin (1.7.0) lib/thin/server.rb:162:in `start'
+  rack (1.6.4) lib/rack/handler/thin.rb:19:in `run'
+  rack (1.6.4) lib/rack/server.rb:286:in `start'
+  railties (4.2.6) lib/rails/commands/server.rb:80:in `start'
+  railties (4.2.6) lib/rails/commands/commands_tasks.rb:80:in `block in server'
+  railties (4.2.6) lib/rails/commands/commands_tasks.rb:75:in `tap'
+  railties (4.2.6) lib/rails/commands/commands_tasks.rb:75:in `server'
+  railties (4.2.6) lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+  railties (4.2.6) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:4:in `require'
+  bin/rails:4:in `<main>'
+
+
+  Rendered /Users/BrianJChung/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.4ms)
+  Rendered /Users/BrianJChung/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Users/BrianJChung/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/BrianJChung/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (44.4ms)
+
+
+Started GET "/categories.1" for ::1 at 2016-06-16 11:59:56 -0700
+
+ActionController::RoutingError - uninitialized constant CategoriesController:
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:63:in `rescue in controller'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:58:in `controller'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:39:in `serve'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:817:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.6) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.6) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.6) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  thin (1.7.0) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.7.0) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.7.0) lib/thin/connection.rb:53:in `process'
+  thin (1.7.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run'
+  thin (1.7.0) lib/thin/backends/base.rb:73:in `start'
+  thin (1.7.0) lib/thin/server.rb:162:in `start'
+  rack (1.6.4) lib/rack/handler/thin.rb:19:in `run'
+  rack (1.6.4) lib/rack/server.rb:286:in `start'
+  railties (4.2.6) lib/rails/commands/server.rb:80:in `start'
+  railties (4.2.6) lib/rails/commands/commands_tasks.rb:80:in `block in server'
+  railties (4.2.6) lib/rails/commands/commands_tasks.rb:75:in `server'
+  railties (4.2.6) lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+  railties (4.2.6) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:4:in `<main>'
+
+
+
+Started POST "/__better_errors/17088f7fe5e18345/variables" for ::1 at 2016-06-16 11:59:56 -0700
+
+NameError (wrong local variable name `#$!' for #<Binding:0x007fe5412e87d0>):
+  better_errors (2.1.1) lib/better_errors/stack_frame.rb:73:in `local_variable_get'
+  better_errors (2.1.1) lib/better_errors/stack_frame.rb:73:in `block in local_variables'
+  better_errors (2.1.1) lib/better_errors/stack_frame.rb:71:in `each'
+  better_errors (2.1.1) lib/better_errors/stack_frame.rb:71:in `each_with_object'
+  better_errors (2.1.1) lib/better_errors/stack_frame.rb:71:in `local_variables'
+  (erubis:52:in `render'
+  erubis (2.7.0) lib/erubis/evaluator.rb:65:in `eval'
+  erubis (2.7.0) lib/erubis/evaluator.rb:65:in `result'
+  better_errors (2.1.1) lib/better_errors/error_page.rb:30:in `render'
+  better_errors (2.1.1) lib/better_errors/error_page.rb:37:in `do_variables'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:132:in `internal_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:75:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  thin (1.7.0) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.7.0) lib/thin/connection.rb:84:in `catch'
+  thin (1.7.0) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.7.0) lib/thin/connection.rb:53:in `process'
+  thin (1.7.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run_machine'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run'
+  thin (1.7.0) lib/thin/backends/base.rb:73:in `start'
+  thin (1.7.0) lib/thin/server.rb:162:in `start'
+  rack (1.6.4) lib/rack/handler/thin.rb:19:in `run'
+  rack (1.6.4) lib/rack/server.rb:286:in `start'
+  railties (4.2.6) lib/rails/commands/server.rb:80:in `start'
+  railties (4.2.6) lib/rails/commands/commands_tasks.rb:80:in `block in server'
+  railties (4.2.6) lib/rails/commands/commands_tasks.rb:75:in `tap'
+  railties (4.2.6) lib/rails/commands/commands_tasks.rb:75:in `server'
+  railties (4.2.6) lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+  railties (4.2.6) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:4:in `require'
+  bin/rails:4:in `<main>'
+
+
+  Rendered /Users/BrianJChung/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.7ms)
+  Rendered /Users/BrianJChung/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Users/BrianJChung/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/BrianJChung/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (46.1ms)
+
+
+Started GET "/categories.1" for ::1 at 2016-06-16 12:00:12 -0700
+
+ActionController::RoutingError (No route matches [GET] "/categories.1"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  thin (1.7.0) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.7.0) lib/thin/connection.rb:84:in `catch'
+  thin (1.7.0) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.7.0) lib/thin/connection.rb:53:in `process'
+  thin (1.7.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run_machine'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run'
+  thin (1.7.0) lib/thin/backends/base.rb:73:in `start'
+  thin (1.7.0) lib/thin/server.rb:162:in `start'
+  rack (1.6.4) lib/rack/handler/thin.rb:19:in `run'
+  rack (1.6.4) lib/rack/server.rb:286:in `start'
+  railties (4.2.6) lib/rails/commands/server.rb:80:in `start'
+  railties (4.2.6) lib/rails/commands/commands_tasks.rb:80:in `block in server'
+  railties (4.2.6) lib/rails/commands/commands_tasks.rb:75:in `tap'
+  railties (4.2.6) lib/rails/commands/commands_tasks.rb:75:in `server'
+  railties (4.2.6) lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+  railties (4.2.6) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:4:in `require'
+  bin/rails:4:in `<main>'
+
+
+  Rendered /Users/BrianJChung/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/BrianJChung/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.2ms)
+  Rendered /Users/BrianJChung/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /Users/BrianJChung/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/BrianJChung/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (82.0ms)
+
+
+Started GET "/products" for ::1 at 2016-06-16 12:00:25 -0700
+Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.4ms)[0m  [1mSELECT "products".* FROM "products"[0m
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1  [["product_id", 1]]
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1[0m  [["product_id", 2]]
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1  [["product_id", 3]]
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1[0m  [["product_id", 4]]
+  [1m[35mCategory Load (0.1ms)[0m  SELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1  [["product_id", 5]]
+  [1m[36mCategory Load (0.1ms)[0m  [1mSELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1[0m  [["product_id", 6]]
+  [1m[35mCategory Load (0.1ms)[0m  SELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1  [["product_id", 7]]
+  [1m[36mCategory Load (0.1ms)[0m  [1mSELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1[0m  [["product_id", 8]]
+  Rendered products/index.html.haml within layouts/application (24.4ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mCategory Load (0.3ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+Completed 200 OK in 81ms (Views: 68.4ms | ActiveRecord: 8.9ms)
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-16 12:00:25 -0700
+
+
+Started GET "/assets/admin/products.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-06-16 12:00:25 -0700
+
+
+Started GET "/assets/category.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-06-16 12:00:25 -0700
+
+
+Started GET "/assets/home.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-06-16 12:00:25 -0700
+
+
+Started GET "/assets/products.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-06-16 12:00:25 -0700
+
+
+Started GET "/assets/sessions.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-06-16 12:00:25 -0700
+
+
+Started GET "/assets/users.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-06-16 12:00:25 -0700
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-16 12:00:25 -0700
+
+
+Started GET "/category/1" for ::1 at 2016-06-16 12:00:29 -0700
+Processing by CategoryController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mCategory Load (0.3ms)[0m  SELECT  "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered category/show.html.haml within layouts/application (0.9ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCategory Load (0.3ms)[0m  SELECT "categories".* FROM "categories"
+Completed 200 OK in 30ms (Views: 27.9ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/category/2" for ::1 at 2016-06-16 12:00:38 -0700
+Processing by CategoryController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mCategory Load (0.3ms)[0m  [1mSELECT  "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered category/show.html.haml within layouts/application (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mCategory Load (0.3ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+Completed 200 OK in 25ms (Views: 23.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/category/2" for ::1 at 2016-06-16 12:01:21 -0700
+Processing by CategoryController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mCategory Load (0.3ms)[0m  SELECT  "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered category/show.html.haml within layouts/application (0.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories"
+Completed 200 OK in 23ms (Views: 21.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/category/1" for ::1 at 2016-06-16 12:01:23 -0700
+Processing by CategoryController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT  "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered category/show.html.haml within layouts/application (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mCategory Load (0.3ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+Completed 200 OK in 26ms (Views: 24.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/category/4" for ::1 at 2016-06-16 12:01:27 -0700
+Processing by CategoryController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mCategory Load (0.2ms)[0m  SELECT  "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT 1  [["id", 4]]
+  Rendered category/show.html.haml within layouts/application (0.1ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCategory Load (0.3ms)[0m  SELECT "categories".* FROM "categories"
+Completed 200 OK in 23ms (Views: 21.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/products" for ::1 at 2016-06-16 12:01:28 -0700
+Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.6ms)[0m  [1mSELECT "products".* FROM "products"[0m
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1  [["product_id", 1]]
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1[0m  [["product_id", 2]]
+  [1m[35mCategory Load (0.1ms)[0m  SELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1  [["product_id", 3]]
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1[0m  [["product_id", 4]]
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1  [["product_id", 5]]
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1[0m  [["product_id", 6]]
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1  [["product_id", 7]]
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1[0m  [["product_id", 8]]
+  Rendered products/index.html.haml within layouts/application (14.1ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mCategory Load (0.3ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+Completed 200 OK in 39ms (Views: 36.0ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/admin/products" for ::1 at 2016-06-16 12:01:48 -0700
+Processing by Admin::ProductsController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mProduct Load (0.3ms)[0m  [1mSELECT "products".* FROM "products"[0m
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1  [["product_id", 1]]
+  [1m[36mCategory Load (0.1ms)[0m  [1mSELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1[0m  [["product_id", 2]]
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1  [["product_id", 3]]
+  [1m[36mCategory Load (0.1ms)[0m  [1mSELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1[0m  [["product_id", 4]]
+  [1m[35mCategory Load (0.1ms)[0m  SELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1  [["product_id", 5]]
+  [1m[36mCategory Load (0.1ms)[0m  [1mSELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1[0m  [["product_id", 6]]
+  [1m[35mCategory Load (0.1ms)[0m  SELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1  [["product_id", 7]]
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1[0m  [["product_id", 8]]
+  Rendered admin/products/index.html.haml within layouts/application (11.5ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mCategory Load (0.3ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+Completed 200 OK in 36ms (Views: 32.7ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/category/1" for ::1 at 2016-06-16 12:01:53 -0700
+Processing by CategoryController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mCategory Load (0.2ms)[0m  SELECT  "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered category/show.html.haml within layouts/application (0.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCategory Load (0.3ms)[0m  SELECT "categories".* FROM "categories"
+Completed 200 OK in 21ms (Views: 19.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/products" for ::1 at 2016-06-16 12:02:41 -0700
+Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.4ms)[0m  [1mSELECT "products".* FROM "products"[0m
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1  [["product_id", 1]]
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1[0m  [["product_id", 2]]
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1  [["product_id", 3]]
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1[0m  [["product_id", 4]]
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1  [["product_id", 5]]
+  [1m[36mCategory Load (0.1ms)[0m  [1mSELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1[0m  [["product_id", 6]]
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1  [["product_id", 7]]
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1[0m  [["product_id", 8]]
+  Rendered products/index.html.haml within layouts/application (26.3ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mCategory Load (0.3ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+Completed 200 OK in 63ms (Views: 51.2ms | ActiveRecord: 7.8ms)
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-16 12:02:41 -0700
+
+
+Started GET "/assets/admin/products.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-06-16 12:02:41 -0700
+
+
+Started GET "/assets/category.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-06-16 12:02:41 -0700
+
+
+Started GET "/assets/home.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-06-16 12:02:41 -0700
+
+
+Started GET "/assets/products.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-06-16 12:02:41 -0700
+
+
+Started GET "/assets/sessions.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-06-16 12:02:41 -0700
+
+
+Started GET "/assets/users.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-06-16 12:02:41 -0700
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-16 12:02:41 -0700
+
+
+Started GET "/categories/1" for ::1 at 2016-06-16 12:02:43 -0700
+
+ActionController::RoutingError - uninitialized constant CategoriesController:
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:63:in `rescue in controller'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:58:in `controller'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:39:in `serve'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:817:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.6) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.6) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.6) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  thin (1.7.0) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.7.0) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.7.0) lib/thin/connection.rb:53:in `process'
+  thin (1.7.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run'
+  thin (1.7.0) lib/thin/backends/base.rb:73:in `start'
+  thin (1.7.0) lib/thin/server.rb:162:in `start'
+  rack (1.6.4) lib/rack/handler/thin.rb:19:in `run'
+  rack (1.6.4) lib/rack/server.rb:286:in `start'
+  railties (4.2.6) lib/rails/commands/server.rb:80:in `start'
+  railties (4.2.6) lib/rails/commands/commands_tasks.rb:80:in `block in server'
+  railties (4.2.6) lib/rails/commands/commands_tasks.rb:75:in `server'
+  railties (4.2.6) lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+  railties (4.2.6) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:4:in `<main>'
+
+
+
+Started POST "/__better_errors/8941cd2058bed185/variables" for ::1 at 2016-06-16 12:02:44 -0700
+
+NameError (wrong local variable name `#$!' for #<Binding:0x007fe540852028>):
+  better_errors (2.1.1) lib/better_errors/stack_frame.rb:73:in `local_variable_get'
+  better_errors (2.1.1) lib/better_errors/stack_frame.rb:73:in `block in local_variables'
+  better_errors (2.1.1) lib/better_errors/stack_frame.rb:71:in `each'
+  better_errors (2.1.1) lib/better_errors/stack_frame.rb:71:in `each_with_object'
+  better_errors (2.1.1) lib/better_errors/stack_frame.rb:71:in `local_variables'
+  (erubis:52:in `render'
+  erubis (2.7.0) lib/erubis/evaluator.rb:65:in `eval'
+  erubis (2.7.0) lib/erubis/evaluator.rb:65:in `result'
+  better_errors (2.1.1) lib/better_errors/error_page.rb:30:in `render'
+  better_errors (2.1.1) lib/better_errors/error_page.rb:37:in `do_variables'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:132:in `internal_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:75:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  thin (1.7.0) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.7.0) lib/thin/connection.rb:84:in `catch'
+  thin (1.7.0) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.7.0) lib/thin/connection.rb:53:in `process'
+  thin (1.7.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run_machine'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run'
+  thin (1.7.0) lib/thin/backends/base.rb:73:in `start'
+  thin (1.7.0) lib/thin/server.rb:162:in `start'
+  rack (1.6.4) lib/rack/handler/thin.rb:19:in `run'
+  rack (1.6.4) lib/rack/server.rb:286:in `start'
+  railties (4.2.6) lib/rails/commands/server.rb:80:in `start'
+  railties (4.2.6) lib/rails/commands/commands_tasks.rb:80:in `block in server'
+  railties (4.2.6) lib/rails/commands/commands_tasks.rb:75:in `tap'
+  railties (4.2.6) lib/rails/commands/commands_tasks.rb:75:in `server'
+  railties (4.2.6) lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+  railties (4.2.6) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:4:in `require'
+  bin/rails:4:in `<main>'
+
+
+  Rendered /Users/BrianJChung/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.4ms)
+  Rendered /Users/BrianJChung/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/BrianJChung/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/BrianJChung/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (50.2ms)
+
+
+Started GET "/categories/1" for ::1 at 2016-06-16 12:03:55 -0700
+Processing by CategoriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mCategory Load (0.2ms)[0m  SELECT  "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered categories/show.html.haml within layouts/application (1.3ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories"
+Completed 200 OK in 35ms (Views: 25.7ms | ActiveRecord: 4.1ms)
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-16 12:03:55 -0700
+
+
+Started GET "/assets/admin/products.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-06-16 12:03:55 -0700
+
+
+Started GET "/assets/category.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-06-16 12:03:55 -0700
+
+
+Started GET "/assets/home.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-06-16 12:03:55 -0700
+
+
+Started GET "/assets/products.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-06-16 12:03:55 -0700
+
+
+Started GET "/assets/sessions.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-06-16 12:03:55 -0700
+
+
+Started GET "/assets/users.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-06-16 12:03:55 -0700
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-16 12:03:55 -0700
+
+
+Started GET "/categories/1" for ::1 at 2016-06-16 12:04:26 -0700
+Processing by CategoriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT  "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered categories/show.html.haml within layouts/application (0.1ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mCategory Load (0.3ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+Completed 200 OK in 29ms (Views: 27.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-16 12:04:26 -0700
+
+
+Started GET "/assets/admin/products.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-06-16 12:04:26 -0700
+
+
+Started GET "/assets/category.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-06-16 12:04:26 -0700
+
+
+Started GET "/assets/home.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-06-16 12:04:26 -0700
+
+
+Started GET "/assets/products.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-06-16 12:04:26 -0700
+
+
+Started GET "/assets/sessions.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-06-16 12:04:26 -0700
+
+
+Started GET "/assets/users.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-06-16 12:04:26 -0700
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-16 12:04:26 -0700
+  [1m[36mProduct Load (0.9ms)[0m  [1mSELECT "products".* FROM "products"[0m
+  [1m[35mProduct Load (1.0ms)[0m  SELECT  "products".* FROM "products"  ORDER BY "products"."id" ASC LIMIT 1
+  [1m[36mCategory Load (0.5ms)[0m  [1mSELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1[0m  [["product_id", 1]]
+  [1m[35mCategory Load (0.3ms)[0m  SELECT  "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36mCategory Load (0.4ms)[0m  [1mSELECT  "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mProduct Load (0.4ms)[0m  SELECT "products".* FROM "products" INNER JOIN "products_categories" ON "products"."id" = "products_categories"."product_id" WHERE "products_categories"."category_id" = $1  [["category_id", 3]]
+
+
+Started GET "/categories/1" for ::1 at 2016-06-16 12:07:24 -0700
+Processing by CategoriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mCategory Load (0.2ms)[0m  SELECT  "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered categories/show.html.haml within layouts/application (1.1ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCategory Load (0.3ms)[0m  SELECT "categories".* FROM "categories"
+Completed 200 OK in 23ms (Views: 22.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-16 12:07:24 -0700
+
+
+Started GET "/assets/admin/products.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-06-16 12:07:24 -0700
+
+
+Started GET "/assets/category.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-06-16 12:07:24 -0700
+
+
+Started GET "/assets/home.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-06-16 12:07:24 -0700
+
+
+Started GET "/assets/products.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-06-16 12:07:24 -0700
+
+
+Started GET "/assets/sessions.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-06-16 12:07:24 -0700
+
+
+Started GET "/assets/users.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-06-16 12:07:24 -0700
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-16 12:07:24 -0700
+
+
+Started GET "/categories/1" for ::1 at 2016-06-16 12:09:34 -0700
+Processing by CategoriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT  "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mProduct Load (0.3ms)[0m  SELECT "products".* FROM "products" INNER JOIN "products_categories" ON "products"."id" = "products_categories"."product_id" WHERE "products_categories"."category_id" = $1  [["category_id", 1]]
+  Rendered categories/show.html.haml within layouts/application (18.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCategory Load (0.3ms)[0m  SELECT "categories".* FROM "categories"
+Completed 200 OK in 41ms (Views: 37.1ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-16 12:09:34 -0700
+
+
+Started GET "/assets/admin/products.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-06-16 12:09:34 -0700
+
+
+Started GET "/assets/category.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-06-16 12:09:34 -0700
+
+
+Started GET "/assets/home.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-06-16 12:09:34 -0700
+
+
+Started GET "/assets/products.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-06-16 12:09:34 -0700
+
+
+Started GET "/assets/sessions.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-06-16 12:09:34 -0700
+
+
+Started GET "/assets/users.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-06-16 12:09:34 -0700
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-16 12:09:34 -0700
+
+
+Started GET "/categories/3" for ::1 at 2016-06-16 12:09:44 -0700
+Processing by CategoriesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT  "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mProduct Load (0.4ms)[0m  SELECT "products".* FROM "products" INNER JOIN "products_categories" ON "products"."id" = "products_categories"."product_id" WHERE "products_categories"."category_id" = $1  [["category_id", 3]]
+  Rendered categories/show.html.haml within layouts/application (1.7ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCategory Load (0.3ms)[0m  SELECT "categories".* FROM "categories"
+Completed 200 OK in 25ms (Views: 23.1ms | ActiveRecord: 1.2ms)
