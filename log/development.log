@@ -2331,3 +2331,311 @@ Processing by CategoriesController#show as HTML
   [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
   [1m[35mCategory Load (0.3ms)[0m  SELECT "categories".* FROM "categories"
 Completed 200 OK in 25ms (Views: 23.1ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/" for ::1 at 2016-06-16 12:18:06 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+Redirected to http://localhost:3000/products
+Completed 302 Found in 5ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-06-16 12:18:06 -0700
+Processing by HomeController#index as HTML
+Redirected to http://localhost:3000/products
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/products" for ::1 at 2016-06-16 12:18:06 -0700
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.6ms)[0m  SELECT "products".* FROM "products"
+  [1m[36mCategory Load (0.8ms)[0m  [1mSELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1[0m  [["product_id", 1]]
+  [1m[35mCategory Load (0.4ms)[0m  SELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1  [["product_id", 2]]
+  [1m[36mCategory Load (0.3ms)[0m  [1mSELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1[0m  [["product_id", 3]]
+  [1m[35mCategory Load (0.3ms)[0m  SELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1  [["product_id", 4]]
+  [1m[36mCategory Load (0.3ms)[0m  [1mSELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1[0m  [["product_id", 5]]
+  [1m[35mCategory Load (0.3ms)[0m  SELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1  [["product_id", 6]]
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1[0m  [["product_id", 7]]
+  [1m[35mCategory Load (0.1ms)[0m  SELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1  [["product_id", 8]]
+  Rendered products/index.html.haml within layouts/application (391.6ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCategory Load (0.4ms)[0m  SELECT "categories".* FROM "categories"
+Completed 200 OK in 628ms (Views: 613.2ms | ActiveRecord: 11.8ms)
+
+
+Started GET "/categories/1" for ::1 at 2016-06-16 12:18:09 -0700
+Processing by CategoriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT  "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mProduct Load (0.4ms)[0m  SELECT "products".* FROM "products" INNER JOIN "products_categories" ON "products"."id" = "products_categories"."product_id" WHERE "products_categories"."category_id" = $1  [["category_id", 1]]
+  Rendered categories/show.html.haml within layouts/application (7.7ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories"
+Completed 200 OK in 35ms (Views: 32.5ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/categories/1" for ::1 at 2016-06-16 14:24:48 -0700
+Processing by CategoriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCategory Load (0.3ms)[0m  [1mSELECT  "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mProduct Load (0.4ms)[0m  SELECT "products".* FROM "products" INNER JOIN "products_categories" ON "products"."id" = "products_categories"."product_id" WHERE "products_categories"."category_id" = $1  [["category_id", 1]]
+  Rendered categories/show.html.haml within layouts/application (1.4ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCategory Load (0.3ms)[0m  SELECT "categories".* FROM "categories"
+Completed 200 OK in 27ms (Views: 24.8ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-16 14:24:48 -0700
+
+
+Started GET "/assets/admin/products.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-06-16 14:24:48 -0700
+
+
+Started GET "/assets/category.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-06-16 14:24:48 -0700
+
+
+Started GET "/assets/home.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-06-16 14:24:48 -0700
+
+
+Started GET "/assets/products.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-06-16 14:24:48 -0700
+
+
+Started GET "/assets/sessions.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-06-16 14:24:49 -0700
+
+
+Started GET "/assets/users.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-06-16 14:24:49 -0700
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-16 14:24:49 -0700
+
+
+Started GET "/products" for ::1 at 2016-06-16 14:24:50 -0700
+Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.4ms)[0m  [1mSELECT "products".* FROM "products"[0m
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1  [["product_id", 1]]
+  [1m[36mCategory Load (0.1ms)[0m  [1mSELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1[0m  [["product_id", 2]]
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1  [["product_id", 3]]
+  [1m[36mCategory Load (0.1ms)[0m  [1mSELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1[0m  [["product_id", 4]]
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1  [["product_id", 5]]
+  [1m[36mCategory Load (0.3ms)[0m  [1mSELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1[0m  [["product_id", 6]]
+  [1m[35mCategory Load (0.3ms)[0m  SELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1  [["product_id", 7]]
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1[0m  [["product_id", 8]]
+  Rendered products/index.html.haml within layouts/application (20.5ms)
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+Completed 200 OK in 57ms (Views: 54.0ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/admin/products" for ::1 at 2016-06-16 14:25:05 -0700
+Processing by Admin::ProductsController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mProduct Load (0.6ms)[0m  [1mSELECT "products".* FROM "products"[0m
+  [1m[35mCategory Load (0.3ms)[0m  SELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1  [["product_id", 1]]
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1[0m  [["product_id", 2]]
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1  [["product_id", 3]]
+  [1m[36mCategory Load (0.1ms)[0m  [1mSELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1[0m  [["product_id", 4]]
+  [1m[35mCategory Load (0.1ms)[0m  SELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1  [["product_id", 5]]
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1[0m  [["product_id", 6]]
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1  [["product_id", 7]]
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1[0m  [["product_id", 8]]
+  Rendered admin/products/index.html.haml within layouts/application (23.0ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+Completed 200 OK in 50ms (Views: 45.7ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/admin/products/new" for ::1 at 2016-06-16 14:25:07 -0700
+Processing by Admin::ProductsController#new as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+  Rendered admin/products/new.html.haml within layouts/application (7.4ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+Completed 200 OK in 39ms (Views: 36.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/categories/1" for ::1 at 2016-06-16 14:28:21 -0700
+Processing by CategoriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mCategory Load (0.3ms)[0m  SELECT  "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mProduct Load (0.5ms)[0m  [1mSELECT "products".* FROM "products" INNER JOIN "products_categories" ON "products"."id" = "products_categories"."product_id" WHERE "products_categories"."category_id" = $1[0m  [["category_id", 1]]
+  Rendered categories/show.html.haml within layouts/application (2.2ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+Completed 200 OK in 22ms (Views: 20.7ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/products" for ::1 at 2016-06-16 14:29:08 -0700
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.3ms)[0m  SELECT "products".* FROM "products"
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1[0m  [["product_id", 1]]
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1  [["product_id", 2]]
+  [1m[36mCategory Load (0.1ms)[0m  [1mSELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1[0m  [["product_id", 3]]
+  [1m[35mCategory Load (0.1ms)[0m  SELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1  [["product_id", 4]]
+  [1m[36mCategory Load (0.1ms)[0m  [1mSELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1[0m  [["product_id", 5]]
+  [1m[35mCategory Load (0.1ms)[0m  SELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1  [["product_id", 6]]
+  [1m[36mCategory Load (0.1ms)[0m  [1mSELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1[0m  [["product_id", 7]]
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1  [["product_id", 8]]
+  Rendered products/index.html.haml within layouts/application (10.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories"
+Completed 200 OK in 29ms (Views: 27.0ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/categories/1" for ::1 at 2016-06-16 14:29:14 -0700
+Processing by CategoriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCategory Load (0.3ms)[0m  [1mSELECT  "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mProduct Load (0.4ms)[0m  SELECT "products".* FROM "products" INNER JOIN "products_categories" ON "products"."id" = "products_categories"."product_id" WHERE "products_categories"."category_id" = $1  [["category_id", 1]]
+  Rendered categories/show.html.haml within layouts/application (1.4ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories"
+Completed 200 OK in 22ms (Views: 20.3ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/categories/1" for ::1 at 2016-06-16 14:29:55 -0700
+Processing by CategoriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCategory Load (0.3ms)[0m  [1mSELECT  "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mProduct Load (0.4ms)[0m  SELECT "products".* FROM "products" INNER JOIN "products_categories" ON "products"."id" = "products_categories"."product_id" WHERE "products_categories"."category_id" = $1  [["category_id", 1]]
+  Rendered categories/show.html.haml within layouts/application (1.5ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCategory Load (0.3ms)[0m  SELECT "categories".* FROM "categories"
+Completed 200 OK in 23ms (Views: 20.7ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/categories/1" for ::1 at 2016-06-16 14:31:02 -0700
+Processing by CategoriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT  "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mProduct Load (0.4ms)[0m  SELECT "products".* FROM "products" INNER JOIN "products_categories" ON "products"."id" = "products_categories"."product_id" WHERE "products_categories"."category_id" = $1  [["category_id", 1]]
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1[0m  [["product_id", 4]]
+  Rendered categories/show.html.haml within layouts/application (23.5ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+Completed 200 OK in 60ms (Views: 47.7ms | ActiveRecord: 7.2ms)
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-16 14:31:02 -0700
+
+
+Started GET "/assets/admin/products.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-06-16 14:31:02 -0700
+
+
+Started GET "/assets/category.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-06-16 14:31:02 -0700
+
+
+Started GET "/assets/home.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-06-16 14:31:02 -0700
+
+
+Started GET "/assets/products.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-06-16 14:31:02 -0700
+
+
+Started GET "/assets/sessions.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-06-16 14:31:02 -0700
+
+
+Started GET "/assets/users.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-06-16 14:31:02 -0700
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-16 14:31:02 -0700
+
+
+Started GET "/products" for ::1 at 2016-06-16 14:31:10 -0700
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.3ms)[0m  SELECT "products".* FROM "products"
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1[0m  [["product_id", 1]]
+  [1m[35mCategory Load (0.1ms)[0m  SELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1  [["product_id", 2]]
+  [1m[36mCategory Load (0.1ms)[0m  [1mSELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1[0m  [["product_id", 3]]
+  [1m[35mCategory Load (0.1ms)[0m  SELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1  [["product_id", 4]]
+  [1m[36mCategory Load (0.1ms)[0m  [1mSELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1[0m  [["product_id", 5]]
+  [1m[35mCategory Load (0.1ms)[0m  SELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1  [["product_id", 6]]
+  [1m[36mCategory Load (0.1ms)[0m  [1mSELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1[0m  [["product_id", 7]]
+  [1m[35mCategory Load (0.1ms)[0m  SELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1  [["product_id", 8]]
+  Rendered products/index.html.haml within layouts/application (10.3ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCategory Load (0.3ms)[0m  SELECT "categories".* FROM "categories"
+Completed 200 OK in 31ms (Views: 29.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/categories/2" for ::1 at 2016-06-16 14:31:11 -0700
+Processing by CategoriesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT  "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mProduct Load (0.2ms)[0m  SELECT "products".* FROM "products" INNER JOIN "products_categories" ON "products"."id" = "products_categories"."product_id" WHERE "products_categories"."category_id" = $1  [["category_id", 2]]
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1[0m  [["product_id", 5]]
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1  [["product_id", 7]]
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1[0m  [["product_id", 8]]
+  Rendered categories/show.html.haml within layouts/application (5.0ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mCategory Load (0.4ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+Completed 200 OK in 28ms (Views: 25.9ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/categories/3" for ::1 at 2016-06-16 14:31:16 -0700
+Processing by CategoriesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mCategory Load (0.2ms)[0m  SELECT  "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36mProduct Load (0.3ms)[0m  [1mSELECT "products".* FROM "products" INNER JOIN "products_categories" ON "products"."id" = "products_categories"."product_id" WHERE "products_categories"."category_id" = $1[0m  [["category_id", 3]]
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1  [["product_id", 1]]
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1[0m  [["product_id", 2]]
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1  [["product_id", 3]]
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1[0m  [["product_id", 6]]
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1  [["product_id", 8]]
+  Rendered categories/show.html.haml within layouts/application (8.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories"
+Completed 200 OK in 29ms (Views: 26.5ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/categories/5" for ::1 at 2016-06-16 14:31:18 -0700
+Processing by CategoriesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT  "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  [1m[35mProduct Load (0.2ms)[0m  SELECT "products".* FROM "products" INNER JOIN "products_categories" ON "products"."id" = "products_categories"."product_id" WHERE "products_categories"."category_id" = $1  [["category_id", 5]]
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1[0m  [["product_id", 2]]
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1  [["product_id", 6]]
+  Rendered categories/show.html.haml within layouts/application (4.1ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories"
+Completed 200 OK in 25ms (Views: 23.4ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/categories/6" for ::1 at 2016-06-16 14:31:20 -0700
+Processing by CategoriesController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT  "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35mProduct Load (0.3ms)[0m  SELECT "products".* FROM "products" INNER JOIN "products_categories" ON "products"."id" = "products_categories"."product_id" WHERE "products_categories"."category_id" = $1  [["category_id", 6]]
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1[0m  [["product_id", 7]]
+  Rendered categories/show.html.haml within layouts/application (3.2ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+Completed 200 OK in 25ms (Views: 23.4ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/categories/1" for ::1 at 2016-06-16 14:31:22 -0700
+Processing by CategoriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mCategory Load (0.2ms)[0m  SELECT  "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT "products".* FROM "products" INNER JOIN "products_categories" ON "products"."id" = "products_categories"."product_id" WHERE "products_categories"."category_id" = $1[0m  [["category_id", 1]]
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1  [["product_id", 4]]
+  Rendered categories/show.html.haml within layouts/application (2.8ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories"
+Completed 200 OK in 23ms (Views: 21.6ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/products" for ::1 at 2016-06-16 14:31:24 -0700
+Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.5ms)[0m  [1mSELECT "products".* FROM "products"[0m
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1  [["product_id", 1]]
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1[0m  [["product_id", 2]]
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1  [["product_id", 3]]
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1[0m  [["product_id", 4]]
+  [1m[35mCategory Load (0.1ms)[0m  SELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1  [["product_id", 5]]
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1[0m  [["product_id", 6]]
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1  [["product_id", 7]]
+  [1m[36mCategory Load (0.3ms)[0m  [1mSELECT "categories".* FROM "categories" INNER JOIN "products_categories" ON "categories"."id" = "products_categories"."category_id" WHERE "products_categories"."product_id" = $1[0m  [["product_id", 8]]
+  Rendered products/index.html.haml within layouts/application (12.9ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+Completed 200 OK in 38ms (Views: 35.1ms | ActiveRecord: 2.5ms)
