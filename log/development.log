@@ -7028,3 +7028,124 @@ Processing by UsersController#show as HTML
   Rendered users/show.html.haml within layouts/application (0.7ms)
   [1m[35mCategory Load (0.3ms)[0m  SELECT "categories".* FROM "categories"
 Completed 200 OK in 22ms (Views: 21.1ms | ActiveRecord: 0.3ms)
+  [1m[36mUser Load (0.9ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY "users"."id" DESC LIMIT 1[0m
+  [1m[35mSQL (2.4ms)[0m  DELETE FROM "users" WHERE "users"."id" = $1  [["id", 11]]
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY "users"."id" DESC LIMIT 1[0m
+  [1m[35mSQL (2.1ms)[0m  DELETE FROM "users" WHERE "users"."id" = $1  [["id", 10]]
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY "users"."id" DESC LIMIT 1[0m
+  [1m[35mSQL (2.1ms)[0m  DELETE FROM "users" WHERE "users"."id" = $1  [["id", 7]]
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY "users"."id" DESC LIMIT 1[0m
+  [1m[35mSQL (2.0ms)[0m  DELETE FROM "users" WHERE "users"."id" = $1  [["id", 6]]
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY "users"."id" DESC LIMIT 1[0m
+  [1m[35mSQL (2.2ms)[0m  DELETE FROM "users" WHERE "users"."id" = $1  [["id", 5]]
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY "users"."id" DESC LIMIT 1[0m
+  [1m[35mSQL (2.0ms)[0m  DELETE FROM "users" WHERE "users"."id" = $1  [["id", 4]]
+
+
+Started GET "/users/11" for ::1 at 2016-06-16 16:41:01 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"11"}
+  Rendered users/show.html.haml within layouts/application (0.1ms)
+  [1m[36mCategory Load (0.5ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+Completed 200 OK in 18ms (Views: 17.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-16 16:41:01 -0700
+
+
+Started GET "/assets/admin/products.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-06-16 16:41:01 -0700
+
+
+Started GET "/assets/category.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-06-16 16:41:01 -0700
+
+
+Started GET "/assets/home.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-06-16 16:41:01 -0700
+
+
+Started GET "/assets/products.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-06-16 16:41:01 -0700
+
+
+Started GET "/assets/sessions.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-06-16 16:41:01 -0700
+
+
+Started GET "/assets/users.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-06-16 16:41:01 -0700
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-06-16 16:41:01 -0700
+
+
+Started GET "/users/new" for ::1 at 2016-06-16 16:41:03 -0700
+Processing by UsersController#new as HTML
+  Rendered users/new.html.haml within layouts/application (2.0ms)
+  [1m[35mCategory Load (0.5ms)[0m  SELECT "categories".* FROM "categories"
+Completed 200 OK in 21ms (Views: 20.2ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/users" for ::1 at 2016-06-16 16:41:12 -0700
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hJbyn7FZKMVvMRAJmbHxos2Z0SOe10vqcs0+e71djOP5KQNcmhsZzw3Fw3t4u0c+eFmtp3neLzp1pnYItUsRJg==", "user"=>{"name"=>"Brian", "email"=>"brianjaychung@gmail.com", "password"=>"[FILTERED]", "confirm_password"=>"[FILTERED]"}, "commit"=>"Register"}
+Unpermitted parameter: confirm_password
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.5ms)[0m  SELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('brianjaychung@gmail.com') LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Brian"], ["email", "brianjaychung@gmail.com"], ["password_digest", "$2a$10$Uv0mpN9bcienrpgXot7Wc.qSNYIS7bYvg8HzDTUH50B.WSNhfrI.a"], ["created_at", "2016-06-16 23:41:12.542692"], ["updated_at", "2016-06-16 23:41:12.542692"]]
+  [1m[35m (2.0ms)[0m  COMMIT
+  Rendered example_mailer/sample_email.html.erb within layouts/mailer (0.1ms)
+  Rendered example_mailer/sample_email.text.erb within layouts/mailer (0.0ms)
+
+ExampleMailer#sample_email: processed outbound mail in 17.0ms
+
+Sent mail to brianjaychung@gmail.com (1635.7ms)
+Date: Thu, 16 Jun 2016 16:41:12 -0700
+From: iamironmantstark@gmail.com
+To: brianjaychung@gmail.com
+Message-ID: <5763391889f35_c6203feea105e1f896888@MacBook-Pro-6.local.mail>
+Subject: Sample Email
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5763391888b86_c6203feea105e1f896752";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5763391888b86_c6203feea105e1f896752
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Hi Brian
+Sample mail sent using smtp.
+
+----==_mimepart_5763391888b86_c6203feea105e1f896752
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<hmtl>
+  <body>
+    <!DOCTYPE html>
+    <html>
+      <head>
+        <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+      </head>
+      <body>
+        <h1>Hi Brian</h1>
+        <p>
+          Sample mail sent using smtp.
+        </p>
+      </body>
+    </html>
+  </body>
+</hmtl>
+
+----==_mimepart_5763391888b86_c6203feea105e1f896752--
+
+Redirected to http://localhost:3000/users/12
+Completed 302 Found in 1734ms (ActiveRecord: 2.8ms)
+
+
+Started GET "/users/12" for ::1 at 2016-06-16 16:41:14 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"12"}
+  Rendered users/show.html.haml within layouts/application (0.1ms)
+  [1m[36mCategory Load (0.5ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+Completed 200 OK in 33ms (Views: 32.2ms | ActiveRecord: 0.5ms)

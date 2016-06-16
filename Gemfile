@@ -27,5 +27,6 @@ group :development, :test do
   gem 'shoulda'
   gem 'factory_girl_rails'
   gem 'figaro'
+  gem 'dotenv'
 end
 

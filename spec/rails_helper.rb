@@ -6,6 +6,8 @@ require 'rspec/rails'
 require 'capybara/rails'
 require 'bcrypt'
 require 'figaro'
+require 'dotenv'
+Dotenv.load
 
 ActiveRecord::Migration.maintain_test_schema!
 Capybara.register_driver :selenium do |app|
