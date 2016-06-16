@@ -26,5 +26,7 @@ group :development, :test do
   gem 'chromedriver-helper'
   gem 'shoulda'
   gem 'factory_girl_rails'
+  gem 'figaro'
+  gem 'dotenv'
 end
 
