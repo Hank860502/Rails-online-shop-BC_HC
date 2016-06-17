@@ -8,11 +8,12 @@
         %div.panel-heading
         %a{:href => product_path(product)}
           %img.img-responsive{:alt => "", :src => "#{product.image_url}", :style => "height:300px"}
-        %div.panel-footer
+        %div.panel-footer#panel
           = product.name
           -product.categories.each do |cat|
             %span.label.label-info=cat.name
           %br
           %br
           = number_to_currency(product.price)
-          = link_to "add to cart", carts_path(product: product)
+          %div.cart= link_to "add to cart", carts_path(product: product)
+
