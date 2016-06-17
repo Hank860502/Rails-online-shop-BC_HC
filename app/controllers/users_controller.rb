@@ -29,7 +29,6 @@ class UsersController < ApplicationController
     end
   end
 
-  def
 
   private
 
