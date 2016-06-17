@@ -23,6 +23,11 @@
             -if logged_in
               %li
                 %a{:href => logout_path } Logout
+              %li
+                %a{:href => "#"}
+                  %span.glyphicon.glyphicon-shopping-cart
+                  Shopping Cart
+
             -else
               %li
                 %a{:href => new_user_path } Register
