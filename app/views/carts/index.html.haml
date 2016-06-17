@@ -1,5 +1,29 @@
-%ul
-  - @user.shoppingcart.each do |product_id|
-    - product_id = product_id.to_i
-    - product = Product.find(product_id)
-    %li= product.name
+%table.table.table-hover.table-striped
+  %tr
+    %th Product Name
+    %th Image
+    %th Product Category
+    %th Stock-level
+    %th Total Price
+    %th Quantity
+    - cart = @user.shoppingcart
+    - @user.shoppingcart.uniq.each do |product_id|
+      - product_id = product_id.to_i
+      - product = Product.find(product_id)
+      %tr
+        %td
+          = link_to product.name, product_path(product)
+        %td
+          %img.img-responsive{:alt => "", :src => "#{product.image_url}", :style => "height:60px"}
+        %td
+          %ul
+          - product.categories.each do |cat|
+            %li= cat.name
+        %td
+          = product.stock
+        %td
+          = number_to_currency(product.price*cart.count(product_id.to_s))
+        %td
+          = cart.count(product_id.to_s)
+
+
