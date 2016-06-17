@@ -15,4 +15,5 @@
           %br
           %br
           = number_to_currency(product.price)
-          %button.btn.btn-primary.btn-sm{:type => "button"} add to cart
+          %a{:href => carts_path(product)}
+            %button.btn.btn-primary.btn-sm{:type => "button"} add to cart
