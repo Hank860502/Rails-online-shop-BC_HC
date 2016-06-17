@@ -9,6 +9,12 @@ class CartsController < ApplicationController
     p "*"*50
     p @user
     p "*"*50
-
   end
+
+  def show
+    @user = current_user
+  end
+
+
+
 end

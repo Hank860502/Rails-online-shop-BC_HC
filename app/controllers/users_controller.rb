@@ -29,6 +29,11 @@ class UsersController < ApplicationController
     end
   end
 
+  def show
+    @user = current_user
+    redirect_to '/carts/show'
+  end
+
 
   private
 
