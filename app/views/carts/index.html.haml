@@ -1,8 +1,5 @@
-- flash.each do |message_type, message|
-  %div{:class => "alert alert-#{message_type}"}= message
-
 %div.row
-  - @products.each do |product|
+  - @user.shoppingcart.each do |product|
     %div.col-md-4
       %div.panel.panel-primary
         %div.panel-heading
@@ -12,7 +9,5 @@
           = product.name
           -product.categories.each do |cat|
             %span.label.label-info=cat.name
-          %br
-          %br
           = number_to_currency(product.price)
-          = link_to "here", carts_path(product: product)
+
