@@ -3,7 +3,6 @@
     %th Product Name
     %th Image
     %th Product Category
-    %th Stock-level
     %th Total Price
     %th Quantity
     - cart = @user.shoppingcart
@@ -19,8 +18,6 @@
           %ul
           - product.categories.each do |cat|
             %li= cat.name
-        %td
-          = product.stock
         %td
           = number_to_currency(product.price*cart.count(product_id.to_s))
         %td
