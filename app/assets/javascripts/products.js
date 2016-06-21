@@ -1,2 +1,13 @@
-// Place all the behaviors and hooks related to the matching controller here.
-// All this logic will automatically be available in application.js.
+$(document).ready(function(){
+  $(".cart").on("click", function(event){
+    event.preventDefault();
+    debugger
+    var url = $(this).children().attr("href")
+    $.ajax({
+      url: url,
+      type: 'GET',
+    }).done(function(data){
+      debugger;
+    })
+  });
+});

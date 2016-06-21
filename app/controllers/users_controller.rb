@@ -7,6 +7,7 @@ class UsersController < ApplicationController
     @user = User.new
   end
 
+
   def create
     @user = User.new(user_params)
     respond_to do |format|
@@ -27,6 +28,12 @@ class UsersController < ApplicationController
       end
     end
   end
+
+  def show
+    @user = current_user
+    redirect_to '/carts/show'
+  end
+
 
   private
 
