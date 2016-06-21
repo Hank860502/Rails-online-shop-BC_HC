@@ -20,5 +20,4 @@ class ApplicationController < ActionController::Base
   @category_names = Category.all
   end
 
-
 end
